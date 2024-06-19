@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/tentang-kami', function () {
     return view('pages.tentang-kami');
 })->name('tentang-kami');
+
+Route::get('/produk', function () {
+    return view('pages.produk');
+})->name('produk');

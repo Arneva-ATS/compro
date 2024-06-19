@@ -33,8 +33,8 @@
                             <li class="nav-item"><a href="{{ route('tentang-kami') }}" class="nav-link {{ request()->routeIs('tentang-kami') ? 'active' : '' }}">Visi & Misi</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item">
-                        <a href="javascript:void(0)" class="dropdown-toggle nav-link">
+                    {{-- <li class="nav-item">
+                        <a href="{{ route('produk') }}" class="dropdown-toggle nav-link {{ request()->routeIs('produk') ? 'active' : '' }}">
                             Produk
                         </a>
                         <ul class="dropdown-menu">
@@ -45,6 +45,11 @@
                             </li>
                             <li class="nav-item"><a href="faculty.html" class="nav-link">Faculty</a></li>
                         </ul>
+                    </li> --}}
+                    <li class="nav-item">
+                        <a href="{{ route('produk') }}" class="nav-link {{ request()->routeIs('produk') ? 'active' : '' }}">
+                            Produk
+                        </a>
                     </li>
                     <li class="nav-item">
                         <a href="javascript:void(0)" class="nav-link">
