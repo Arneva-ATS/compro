@@ -54,45 +54,6 @@
 </div>
 <!-- End About Us Area -->
 
-<!-- Start Academics Area -->
-<div class="academics-area bg-color-1 ptb-100" >
-    <div class="container">
-        <div class="section-title" data-aos="fade-up" data-aos-delay="100">
-            <div class="sub-title">
-                <i class='bx bxs-graduation'></i> <p>Academics</p>
-            </div>
-            <h2>Where Excellence Meets Opportunity</h2>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-lg-4 col-sm-6 col-md-6">
-                <div class="academics-item" data-aos="fade-up" data-aos-delay="100">
-                    <img src="template/img/icon/education-1.png" alt="icon">
-                    <h4>Education Services</h4>
-                    <p>There are many variations of passages Lorem Ipsum avaiable but the majority hav suffered alteration in some form</p>
-                    <a href="the-campus-experience.html">Learn More <i class='bx bx-right-arrow-alt'></i></a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 col-md-6">
-                <div class="academics-item active" data-aos="fade-up" data-aos-delay="200">
-                    <img src="template/img/icon/education-2.png" alt="icon">
-                    <h4>International Hubs</h4>
-                    <p>There are many variations of passages Lorem Ipsum avaiable but the majority hav suffered alteration in some form</p>
-                    <a href="the-campus-experience.html">Learn More <i class='bx bx-right-arrow-alt'></i></a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 col-md-6">
-                <div class="academics-item" data-aos="fade-up" data-aos-delay="300">
-                    <img src="template/img/icon/education-3.png" alt="icon">
-                    <h4>Bachelor’s and Master’s</h4>
-                    <p>There are many variations of passages Lorem Ipsum avaiable but the majority hav suffered alteration in some form</p>
-                    <a href="the-campus-experience.html">Learn More <i class='bx bx-right-arrow-alt'></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- End Academics Area -->
-
 <!-- Start Campus Tour Area -->
 <div class="campus-tour">
     <div class="container-fluid p-0">
@@ -102,10 +63,10 @@
                     <div class="sub-title">
                         <i class='bx bxs-graduation'></i> <p>Core Values</p>
                     </div>
-                    <h2>Special Campus Tour</h2>
+                    <h2>VISI</h2>
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm tem incid idunt ut labore et magna aliqua.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm tem incid idunt ut labore et dolore magna aliqua. Ut enim ad minim iam quis nostrud xerci tation ulla mco laboris nisi ut</p>
+                    <p>Menjadi penyedia terkemuka solusi IT yang inovatif dan transformatif, memberdayakan bisnis untuk berkembang di era digital.</p>
+                    <p>Kami membayangkan masa depan di mana organisasi memanfaatkan potensi penuh teknologi untuk mendorong pertumbuhan, efisiensi, dan kesuksesan yang berkelanjutan.</p>
                 </div>
             </div>
             <div class="col-lg-6">
@@ -124,27 +85,16 @@
                     <div class="sub-title">
                         <i class='bx bxs-graduation'></i> <p>Core Values</p>
                     </div>
-                    <h2>Graduation</h2>
+                    <h2>Misi</h2>
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm tem incid idunt ut labore et magna aliqua.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm tem incid idunt ut labore et dolore magna aliqua. Ut enim ad minim iam quis nostrud xerci tation ulla mco laboris nisi ut</p>
-                </div>
-            </div>
-        </div>
-        <div class="row g-0 align-items-center flex-column-reverse flex-lg-row">
-            <div class="col-lg-6">
-                <div class="content" data-aos="fade-up" data-aos-delay="100">
-                    <div class="sub-title">
-                        <i class='bx bxs-graduation'></i> <p>Core Values</p>
-                    </div>
-                    <h2>Special Campus Tour</h2>
-
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm tem incid idunt ut labore et magna aliqua.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm tem incid idunt ut labore et dolore magna aliqua. Ut enim ad minim iam quis nostrud xerci tation ulla mco laboris nisi ut</p>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="image cp-bg-3" data-aos="fade-zoom-in" data-aos-delay="100">
+                    <ul style="color: #7A7A7A; font-size: 16px;">
+                        <li class="mb-3">Memberikan Solusi Inovatif, Misi kami adalah untuk memberikan solusi TI mutakhir dan disesuaikan yang memenuhi kebutuhan unik klien kami.</li>
+                        <li class="mb-3">Membina Kemitraan Jangka Panjang, Kami bertujuan untuk membangun kemitraan yang kuat dan kolaboratif dengan klien kami, berdasarkan kepercayaan, integritas, dan kesuksesan bersama.</li>
+                        <li class="mb-3">Dorong Transformasi Digital, Kami berkomitmen untuk membantu bisnis menavigasi kompleksitas transformasi digital.</li>
+                        <li class="mb-3">Pastikan Kepuasan Pelanggan yang Luar Biasa, Kepuasan pelanggan adalah inti dari semua yang kami lakukan.</li>
+                        <li class="mb-3">Rangkul Pembelajaran dan Inovasi Berkelanjutan, Kami memupuk budaya pembelajaran dan inovasi berkelanjutan dalam organisasi kami.</li>
+                        <li class="mb-3">Mempromosikan Praktik yang Etis dan Berkelanjutan, Kita berkomitmen untuk menjalankan bisnis dengan standar etika tertinggi dan mempromosikan praktik yang berkelanjutan.</li>
+                    </ul>
                 </div>
             </div>
         </div>

@@ -17,9 +17,11 @@ Route::get('/', function () {
     return view('pages.home');
 })->name('home');
 
-Route::get('/tentang-kami', function () {
-    return view('pages.tentang-kami');
-})->name('tentang-kami');
+Route::prefix('tentang-kami')->name('tentang-kami.')->group(function () {
+    Route::get('visi-misi', function () {
+        return view('pages.tentang-kami.visi-misi');
+    })->name('visi-misi');
+});
 
 Route::get('/produk', function () {
     return view('pages.produk');
