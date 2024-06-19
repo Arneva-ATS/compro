@@ -24,3 +24,7 @@ Route::get('/tentang-kami', function () {
 Route::get('/produk', function () {
     return view('pages.produk');
 })->name('produk');
+
+Route::get('/blog', function () {
+    return view('pages.blog');
+})->name('blog');
