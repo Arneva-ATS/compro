@@ -62,6 +62,7 @@ Default CSS
   --paragraphColor: #7A7A7A;
   --paragraphColorSecond: #B9B9BA;
   --whiteColor: #ffffff;
+  --greyColor: #adaab361;
   --blackColor: #002147;
   --fontSize: 16px;
   --transition: .5s;
@@ -3515,7 +3516,7 @@ Faculty CSS
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: var(--blackColor);
+  background-color: var(--greyColor);
 }
 
 .faculty-area .content {
@@ -4147,7 +4148,7 @@ Campus Area 2 CSS
 }
 
 .campus-area-2 .section-title-2 h2{
-  color: var(--whiteColor);
+  color: var(--blackColor);
 }
 
 .campus-area-2 .section-title-2 .sub-title p{
