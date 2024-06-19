@@ -5,12 +5,11 @@
     <div class="container">
         <div class="banner-content-2">
             <div class="content">
-                <span data-aos="fade-zoom-in" data-aos-delay="300">The Best University of The State</span>
-                <h1 data-aos="fade-up" data-aos-delay="200">Transformative Education</h1>
-                <p data-aos="fade-up" data-aos-delay="300">There are many variations of passages of Lorem Ipsum available, but the majority have suffered altera some injected humour, or randomised words which don't look even slightly believable.</p>
+                <span data-aos="fade-zoom-in" data-aos-delay="300">Technology Company</span>
+                <h1 data-aos="fade-up" data-aos-delay="200">Arneva Teknologi Solusi</h1>
+                <p data-aos="fade-up" data-aos-delay="300">Kami berdedikasi untuk memberdayakan individu dan bisnis dengan solusi IT transformatif. Sebagai penyedia layanan teknologi inovatif terkemuka, kami berusaha untuk membantu klien kami menavigasi lanskap digital yang selalu berubah dan mencapai tujuan mereka dengan percaya diri.</p>
                 <div class="buttons-action" data-aos="fade-up" data-aos-delay="100">
-                    <a class="default-btn" href="application-form.html">Apply to USD</a>
-                    <a class="default-btn btn-style-2" href="contact-us.html">Chat with Us</a>
+                    <a class="default-btn" style="background-color:#102C57" href="application-form.html">Produk Kami</a>
                 </div>
                 <div class="vertical-lr" data-aos="fade-zoom-in" data-aos-delay="100">
                     <p>Transformative Education <span>12-10-2024</span></p>
@@ -29,15 +28,15 @@
 <div id="about" class="about-us-area-2 ptb-100">
     <div class="container">
         <div class="section-title" data-aos="fade-up" data-aos-delay="100">
-            <h2>About Our University</h2>
-            <p>Only when different values, experiences and perspectives are met with free and open discourse can education be truly transformative..</p>
+            <h2>Layanan Kami</h2>
+            <p>Kami berdedikasi untuk memberikan pelayanan maksimal yang memberdayakan bisnis Anda untuk sukses di era digital. Dengan rangkaian solusi TI kami yang komprehensif dan pendekatan yang berpusat pada pelanggan, kami membantu Anda memanfaatkan potensi penuh teknologi, mendorong inovasi dan tetap terdepan dalam persaingan. Bermitra dengan kami untuk peningkatan tujuan strategis bisnis Anda.</p>
         </div>
         <div class="about-content-courser owl-carousel owl-theme">
             <div class="content-items" data-dot="<button>01</button>">
                 <div class="image ct-bg-1" data-aos="fade-zoom-in" data-aos-delay="100">
                 </div>
                 <div class="content" data-aos="fade-up" data-aos-delay="200">
-                    <span>Campus Information</span>
+                    <span>Konsultasi IT</span>
                     <h2>Where Knowledge Meets Innovation</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm tem incid idunt ut labore et dolore magna aliqua. Ut enim ad minim iam quis nostrud xerci tation ulla mco laboris nisi ut</p>
                     <a class="default-btn" href="schedule-tour.html">Schedule A Tour</a>
@@ -47,7 +46,7 @@
                 <div class="image ct-bg-2" data-aos="fade-zoom-in" data-aos-delay="100">
                 </div>
                 <div class="content" data-aos="fade-up" data-aos-delay="200">
-                    <span>Campus Information</span>
+                    <span>Integrasi Sistem</span>
                     <h2>Where Knowledge Meets Innovation</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm tem incid idunt ut labore et dolore magna aliqua. Ut enim ad minim iam quis nostrud xerci tation ulla mco laboris nisi ut</p>
                     <a class="default-btn" href="schedule-tour.html">Schedule A Tour</a>

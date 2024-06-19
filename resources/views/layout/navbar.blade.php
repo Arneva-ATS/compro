@@ -53,7 +53,7 @@
 
                     </li>
 
-                    <li class="nav-item">
+                    {{-- <li class="nav-item">
                         <a href="a.html" class="dropdown-toggle nav-link">
                             Bahasa
                         </a>
@@ -69,12 +69,7 @@
                             <li class="nav-item"><a href="student-activities.html" class="nav-link">Student
                                     Activities</a></li>
                         </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a href="contact-us.html" class="nav-link">
-                            Hubungi Kami
-                        </a>
-                    </li>
+                    </li> --}}
                 </ul>
                 <div class="others-option d-flex align-items-center">
                     <div class="option-item">
@@ -169,7 +164,7 @@
                     Blog
                 </a>
             </div>
-            <div class="accordion-item">
+            {{-- <div class="accordion-item">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                     Bahasa
@@ -210,12 +205,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="accordion-item">
-                <a class="accordion-link without-icon" href="contact-us.html">
-                   Hubungi Kami
-                </a>
-            </div>
+            </div> --}}
+
         </div>
         <div class="offcanvas-contact-info">
             <h4>Contact Info</h4>
