@@ -20,17 +20,17 @@
             <div class="collapse navbar-collapse justify-content-between">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a href="home.html" class="nav-link active">
+                        <a href="{{ route('home') }}" class="nav-link {{ request()->routeIs('home') ? 'active' : '' }}">
                             Beranda
                         </a>
 
                     </li>
                     <li class="nav-item">
-                        <a href="javascript:void(0)" class="dropdown-toggle nav-link">
+                        <a href="{{ route('tentang-kami') }}" class="dropdown-toggle nav-link {{ request()->routeIs('tentang-kami') ? 'active' : '' }}">
                             Tentang Kami
                         </a>
                         <ul class="dropdown-menu">
-                            <li class="nav-item"><a href="about-us.html" class="nav-link">Visi & Misi</a></li>
+                            <li class="nav-item"><a href="{{ route('tentang-kami') }}" class="nav-link {{ request()->routeIs('tentang-kami') ? 'active' : '' }}">Visi & Misi</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
