@@ -938,8 +938,11 @@ About Us Area 2 CSS
 }
 
 .about-us-area-2 .content-items .image.ct-bg-3{
-  background-image: url(../img/all-img/about-image-4.png);
+  background-image: url(../img/layanan/layanan-3.png);
 }
+.about-us-area-2 .content-items .image.ct-bg-4{
+    background-image: url(../img/layanan/layanan-4.jpg);
+  }
 
 .about-us-area-2 .content-items .content {
   max-width: 615px;
