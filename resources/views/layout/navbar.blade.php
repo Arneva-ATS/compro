@@ -25,14 +25,14 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="{{ route('tentang-kami') }}" class="dropdown-toggle nav-link {{ request()->routeIs('tentang-kami') ? 'active' : '' }}">
+                        <a href="javascript:void(0)" class="dropdown-toggle nav-link {{ request()->routeIs('tentang-kami.visi-misi') ? 'active' : '' }}">
                             Tentang Kami
                         </a>
                         <ul class="dropdown-menu">
-                            <li class="nav-item"><a href="{{ route('tentang-kami') }}" class="nav-link {{ request()->routeIs('tentang-kami') ? 'active' : '' }}">Visi & Misi</a></li>
-                            <li class="nav-item"><a href="{{ route('tentang-kami') }}" class="nav-link {{ request()->routeIs('tentang-kami') ? 'active' : '' }}">Nilai-Nilai Perusahaan</a></li>
-                            <li class="nav-item"><a href="{{ route('tentang-kami') }}" class="nav-link {{ request()->routeIs('tentang-kami') ? 'active' : '' }}">Tim Kami</a></li>
-                            <li class="nav-item"><a href="{{ route('tentang-kami') }}" class="nav-link {{ request()->routeIs('tentang-kami') ? 'active' : '' }}">Karir</a></li>
+                            <li class="nav-item"><a href="{{ route('tentang-kami.visi-misi') }}" class="nav-link {{ request()->routeIs('tentang-kami.visi-misi') ? 'active' : '' }}">Visi & Misi</a></li>
+                            <li class="nav-item"><a href="#!" class="nav-link">Nilai-Nilai Perusahaan</a></li>
+                            <li class="nav-item"><a href="#!" class="nav-link">Tim Kami</a></li>
+                            <li class="nav-item"><a href="#!" class="nav-link">Karir</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">

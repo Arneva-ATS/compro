@@ -6,18 +6,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <!-- Links of CSS files -->
-        <link rel="stylesheet" href="template/css/aos.css">
-        <link rel="stylesheet" href="template/css/bootstrap.min.css">
-        <link rel="stylesheet" href="template/css/boxicons.min.css">
-        <link rel="stylesheet" href="template/css/owl.carousel.min.css">
-        <link rel="stylesheet" href="template/css/flaticon.css">
-        <link rel="stylesheet" href="template/css/magnific-popup.min.css">
-        <link rel="stylesheet" href="template/css/style.css">
-        <link rel="stylesheet" href="template/css/header.css">
-        <link rel="stylesheet" href="template/css/responsive.css">
+        <link rel="stylesheet" href="{{ asset('template/css/aos.css') }}">
+        <link rel="stylesheet" href="{{ asset('template/css/bootstrap.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('template/css/boxicons.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('template/css/owl.carousel.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('template/css/flaticon.css') }}">
+        <link rel="stylesheet" href="{{ asset('template/css/magnific-popup.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('template/css/style.css') }}">
+        <link rel="stylesheet" href="{{ asset('template/css/header.css') }}">
+        <link rel="stylesheet" href="{{ asset('template/css/responsive.css') }}">
 
         <title>Arneva Teknologi Solusi</title>
-        <link rel="icon" type="image/png" href="template/img/all-img/favicon.png">
+        <link rel="icon" type="image/png" href="{{ asset('template/img/all-img/favicon.png') }}">
     </head>
     <body>
 
@@ -51,12 +51,12 @@
         </div>
 
         <!-- Links of JS files -->
-        <script src="template/js/jquery.min.js"></script>
-        <script src="template/js/aos.js"></script>
-        <script src="template/js/bootstrap.min.js"></script>
-        <script src="template/js/magnific-popup.min.js"></script>
-        <script src="template/js/owl.carousel.min.js"></script>
-        <script src="template/js/main.js"></script>
+        <script src="{{ asset('template/js/jquery.min.js') }}"></script>
+        <script src="{{ asset('template/js/aos.js') }}"></script>
+        <script src="{{ asset('template/js/bootstrap.min.js') }}"></script>
+        <script src="{{ asset('template/js/magnific-popup.min.js') }}"></script>
+        <script src="{{ asset('template/js/owl.carousel.min.js') }}"></script>
+        <script src="{{ asset('template/js/main.js') }}"></script>
     </body>
 </html>
 
