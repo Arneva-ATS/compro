@@ -28,3 +28,7 @@ Route::get('/produk', function () {
 Route::get('/blog', function () {
     return view('pages.blog');
 })->name('blog');
+
+Route::get('/kontak-kami', function () {
+    return view('pages.kontak-kami');
+})->name('kontak-kami');

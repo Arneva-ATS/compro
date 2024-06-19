@@ -79,7 +79,7 @@
                 <div class="others-option d-flex align-items-center">
                     <div class="option-item">
                         <div class="nav-btn">
-                            <a href="contact-us.html" class="default-btn" style="background-color:#102C57">Contact Us</a>
+                            <a href="{{ route('kontak-kami') }}" class="default-btn" style="background-color:#102C57">Kontak Kami</a>
                         </div>
                     </div>
                     <div class="option-item">
