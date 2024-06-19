@@ -32,7 +32,7 @@
                 <div class="row justify-content-end">
                     <div class="col-lg-6 col-sm-6 col-md-6">
                         <div class="content" data-aos="fade-right" data-aos-delay="100">
-                        <img src="assets/img/all-img/about-image.png" alt="image">
+                        <img src="template/img/all-img/about-image.png" alt="image">
                         </div>
                     </div>
                     <div class="col-lg-6 col-sm-6 col-md-6">
@@ -66,7 +66,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-4 col-sm-6 col-md-6">
                 <div class="academics-item" data-aos="fade-up" data-aos-delay="100">
-                    <img src="assets/img/icon/education-1.png" alt="icon">
+                    <img src="template/img/icon/education-1.png" alt="icon">
                     <h4>Education Services</h4>
                     <p>There are many variations of passages Lorem Ipsum avaiable but the majority hav suffered alteration in some form</p>
                     <a href="the-campus-experience.html">Learn More <i class='bx bx-right-arrow-alt'></i></a>
@@ -74,7 +74,7 @@
             </div>
             <div class="col-lg-4 col-sm-6 col-md-6">
                 <div class="academics-item active" data-aos="fade-up" data-aos-delay="200">
-                    <img src="assets/img/icon/education-2.png" alt="icon">
+                    <img src="template/img/icon/education-2.png" alt="icon">
                     <h4>International Hubs</h4>
                     <p>There are many variations of passages Lorem Ipsum avaiable but the majority hav suffered alteration in some form</p>
                     <a href="the-campus-experience.html">Learn More <i class='bx bx-right-arrow-alt'></i></a>
@@ -82,7 +82,7 @@
             </div>
             <div class="col-lg-4 col-sm-6 col-md-6">
                 <div class="academics-item" data-aos="fade-up" data-aos-delay="300">
-                    <img src="assets/img/icon/education-3.png" alt="icon">
+                    <img src="template/img/icon/education-3.png" alt="icon">
                     <h4>Bachelor’s and Master’s</h4>
                     <p>There are many variations of passages Lorem Ipsum avaiable but the majority hav suffered alteration in some form</p>
                     <a href="the-campus-experience.html">Learn More <i class='bx bx-right-arrow-alt'></i></a>
