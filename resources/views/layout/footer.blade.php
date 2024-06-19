@@ -62,7 +62,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-4">
                     <div class="cpr-left">
-                        <p>Copyright© <a href="#">Canyon</a>, All rights reserved.</p>
+                        <p>Copyright© <a href="#">Arneva</a>, All rights reserved.</p>
                     </div>
                 </div>
                 <div class="col-lg-8">
@@ -81,7 +81,7 @@
                 </div>
             </div>
             <div class="copy-logo">
-                <img src="template/img/logo/footer-Logo.png" alt="image">
+                <img style="max-width: 8em;" src="template/img/logo/footer-Logo.png" alt="image">
             </div>
         </div>
     </div>

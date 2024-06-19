@@ -243,12 +243,12 @@
                 </div>
                 <div class="col-lg-7" data-aos="fade-up" data-aos-delay="200">
                     <div class="content">
-                        <p>BERGABUNGLAH DENGAN PROGRAM PARTNER IT SOLUTIONS KAMI .</p>
+                        <p class="text-white">BERGABUNGLAH DENGAN PROGRAM PARTNER IT SOLUTIONS KAMI .</p>
                     </div>
                 </div>
                 <div class="col-lg-2" data-aos="fade-up" data-aos-delay="300">
                     <div class="button">
-                        <a class="default-btn"  href="financial-aid.html">Kontak Sales</a>
+                        <a class="default-btn" style="background-color:#102C57;"  href="financial-aid.html">Kontak Sales</a>
                     </div>
                 </div>
             </div>
@@ -256,152 +256,16 @@
     </div>
     <!-- End Faculty Area 2 -->
 
-    <!-- Start Quick Search Area -->
-    <div class="quick-search style-2 ptb-100">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="course-search-box" data-aos="fade-right">
-                        <h4>Search For Courses</h4>
-                        <div class="search-key">
-                            <input class="form-control" placeholder="Keywords" type="search" value=""
-                                id="searchKey1">
-                            <input class="form-control" placeholder="Course ID" type="search" value=""
-                                id="searchKey">
 
-                            <select class="form-select" aria-label="Default select example" id="searchKey2">
-                                <option selected>Department</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                            </select>
-
-                            <select class="form-select" aria-label="Default select example" id="searchKey3">
-                                <option selected>Campus</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                            </select>
-
-                            <select class="form-select" aria-label="Default select example" id="searchKey4">
-                                <option selected>Level</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                            </select>
-
-                            <select class="form-select" aria-label="Default select example" id="searchKey5">
-                                <option selected>Instructor</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                            </select>
-
-                            <select class="form-select" aria-label="Default select example" id="searchKey6">
-                                <option selected>Semester</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                            </select>
-
-                            <select class="form-select" aria-label="Default select example" id="searchKey7">
-                                <option selected>Credit</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                            </select>
-
-                            <a class="default-btn" href="#">Search Courses</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="quick-content" data-aos="fade-up" data-aos-delay="200">
-                        <div class="sub-title">
-                            <p>Campus News</p>
-                        </div>
-                        <h2>Start Your Career & Pursue Your Passion</h2>
-                        <p>It is a long established fact that a reader will be distracted by the readablecont of a page when
-                            looking at its layout. The point of using Lorem Ipsum is that it ha more-or-less normal
-                            distribution of letters, as opposed to using.</p>
-
-                        <div class="list">
-                            <div class="row">
-                                <div class="col-lg-6 col-sm-6 col-md-6">
-                                    <div class="list-items">
-                                        <ul>
-                                            <li><i class='bx bx-right-arrow-circle'></i> Alumni & Donors</li>
-                                            <li><i class='bx bx-right-arrow-circle'></i> Athletic Calendar</li>
-                                            <li><i class='bx bx-right-arrow-circle'></i> All Canyon Events</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-sm-6 col-md-6">
-                                    <div class="list-items">
-                                        <ul>
-                                            <li><i class='bx bx-right-arrow-circle'></i> Partnership & Out Reach</li>
-                                            <li><i class='bx bx-right-arrow-circle'></i> Academic Programs</li>
-                                            <li><i class='bx bx-right-arrow-circle'></i> Tution And Fees</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="apply-banner">
-                            <div class="row align-items-center">
-                                <div class="col-lg-6 col-sm-6 col-md-6">
-                                    <p>Apply for Admission</p>
-                                </div>
-                                <div class="col-lg-6 col-sm-6 col-md-6 text-end">
-                                    <a class="default-btn" href="application-form.html">Apply Now</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="user-exprience">
-                            <div class="row align-items-center">
-                                <div class="col-lg-6 col-sm-6 col-md-6">
-                                    <div class="user-info">
-                                        <div class="image">
-                                            <img src="template/img/all-img/admin-image.png" alt="image">
-                                        </div>
-                                        <div class="text">
-                                            <h4>John Michael</h4>
-                                            <p>Founder</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-sm-6 col-md-6">
-                                    <div class="exprience">
-                                        <div class="icon">
-                                            <img src="template/img/icon/trophy-star.png" alt="image">
-                                        </div>
-                                        <div class="text">
-                                            <h4>20</h4>
-                                            <p>Years of <br> Experience</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Quick Search Area -->
 
     <!-- Start Campus Area 2 -->
     <div class="campus-area-2 ptb-100">
         <div class="container-fluaid">
             <div class="section-title section-title-2" data-aos="fade-up" data-aos-delay="100">
                 <div class="sub-title">
-                    <p>The Campus Experience</p>
+                    <p class="text-white">Program Berjalan Kami</p>
                 </div>
-                <h2>One University, Many Places</h2>
+                <h2>Satu Aplikasi, Banyak Solusi</h2>
             </div>
 
             <div class="campus-slider owl-carousel owl-theme">
@@ -431,69 +295,10 @@
     </div>
     <!-- End Campus Area -->
 
-    <!-- Start Activities Area -->
-    <div class="activities-area ptb-100">
-        <div class="container">
-            <div class="section-title section-title-2" data-aos="fade-up" data-aos-delay="100">
-                <div class="sub-title">
-                    <p>Sports and Athletics</p>
-                </div>
-                <h2>Beyond the Bleachers: Diverse Sports & Activities</h2>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-sm-6 col-md-6">
-                    <div class="activities-card style-2" data-aos="fade-up" data-aos-delay="100">
-                        <div class="image">
-                            <img src="template/img/all-img/activities-image-1.png" alt="image">
-                        </div>
-                        <div class="content">
-                            <h2><a href="student-activities.html">Home of Champions</a></h2>
-                            <p>There are many variations of passages of Lorem Ipsum aviable but the majority have suffered
-                                alteration in some form.</p>
-                            <a class="btn" href="student-activities.html">National Championships</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 col-md-6 pt-25">
-                    <div class="activities-card style-2" data-aos="fade-up" data-aos-delay="200">
-                        <div class="image">
-                            <img src="template/img/all-img/activities-image-2.png" alt="image">
-                        </div>
-                        <div class="content">
-                            <h2><a href="support-guidance.html">Olympic Excellence</a></h2>
-                            <p>There are many variations of passages of Lorem Ipsum aviable but the majority have suffered
-                                alteration in some form.</p>
-                            <a class="btn" href="support-guidance.html">Medals</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 col-md-6">
-                    <div class="activities-card style-2" data-aos="fade-up" data-aos-delay="300">
-                        <div class="image">
-                            <img src="template/img/all-img/activities-image-3.png" alt="image">
-                        </div>
-                        <div class="content">
-                            <h2><a href="fitness-athletics.html">Multidimensional Impact</a></h2>
-                            <p>There are many variations of passages of Lorem Ipsum aviable but the majority have suffered
-                                alteration in some form.</p>
-                            <a class="btn" href="fitness-athletics.html">Athlete Stories</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="section-btn text-center" data-aos="fade-zoom-in" data-aos-delay="100">
-                <p>Inspiring Minds, Shaping Futures. <a href="fitness-athletics.html">More About Athletics <i
-                            class='bx bx-right-arrow-alt'></i></a></p>
-            </div>
-        </div>
-    </div>
-    <!-- End Activities Area -->
 
     <!-- Start Events Area 2 -->
-    <div class="events-area-2 pt-100">
-        <div class="container">
+    <div class="events-area-2 pt-100" >
+        <div class="container" >
             <div class="section-title section-title-2" data-aos="fade-up" data-aos-delay="100">
                 <div class="sub-title">
                     <p>News and Events</p>
