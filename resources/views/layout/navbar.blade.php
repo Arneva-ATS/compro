@@ -23,7 +23,6 @@
                         <a href="{{ route('home') }}" class="nav-link {{ request()->routeIs('home') ? 'active' : '' }}">
                             Beranda
                         </a>
-
                     </li>
                     <li class="nav-item">
                         <a href="{{ route('tentang-kami') }}" class="dropdown-toggle nav-link {{ request()->routeIs('tentang-kami') ? 'active' : '' }}">
@@ -31,32 +30,59 @@
                         </a>
                         <ul class="dropdown-menu">
                             <li class="nav-item"><a href="{{ route('tentang-kami') }}" class="nav-link {{ request()->routeIs('tentang-kami') ? 'active' : '' }}">Visi & Misi</a></li>
+                            <li class="nav-item"><a href="{{ route('tentang-kami') }}" class="nav-link {{ request()->routeIs('tentang-kami') ? 'active' : '' }}">Nilai-Nilai Perusahaan</a></li>
+                            <li class="nav-item"><a href="{{ route('tentang-kami') }}" class="nav-link {{ request()->routeIs('tentang-kami') ? 'active' : '' }}">Tim Kami</a></li>
+                            <li class="nav-item"><a href="{{ route('tentang-kami') }}" class="nav-link {{ request()->routeIs('tentang-kami') ? 'active' : '' }}">Karir</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#!" class="dropdown-toggle nav-link">
+                            Layanan
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item"><a href="#!" class="nav-link">Konsultasi TI</a></li>
+                            <li class="nav-item"><a href="#!" class="nav-link">Integrasi Sistem</a></li>
+                            <li class="nav-item"><a href="#!" class="nav-link">Pengembangan Perangkat Lunak</a></li>
+                            <li class="nav-item"><a href="#!" class="nav-link">Keamanan Siber</a></li>
+                            <li class="nav-item"><a href="#!" class="nav-link">Dukungan TI</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="{{ route('produk') }}" class="dropdown-toggle nav-link {{ request()->routeIs('produk') ? 'active' : '' }}">
+                            Proyek dan Studi Kasus
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item"><a href="#!" class="nav-link">Proyek Terkini</a></li>
+                            <li class="nav-item"><a href="#!" class="nav-link">Studi Kasus</a></li>
+                            <li class="nav-item"><a href="#!" class="nav-link">Testimoni Klien</a></li>                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="{{ route('blog') }}" class="dropdown-toggle nav-link {{ request()->routeIs('blog') ? 'active' : '' }}">
+                            blog
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item"><a href="#!" class="nav-link">Artikel Teknologi</a></li>
+                            <li class="nav-item"><a href="#!" class="nav-link">Berita dan Pembaruan</a></li>
+                            <li class="nav-item"><a href="#!" class="nav-link">Tips & Trik</a></li>                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#!" class="dropdown-toggle nav-link">
+                            Sumber Daya
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item"><a href="#!" class="nav-link">Dokumentasi</a></li>
+                            <li class="nav-item"><a href="#!" class="nav-link">White Papers</a></li>
+                            <li class="nav-item"><a href="#!" class="nav-link">e-Books</a></li>                            </li>
                         </ul>
                     </li>
                     {{-- <li class="nav-item">
-                        <a href="{{ route('produk') }}" class="dropdown-toggle nav-link {{ request()->routeIs('produk') ? 'active' : '' }}">
-                            Produk
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li class="nav-item"><a href="academics.html" class="nav-link">Academics</a></li>
-                            <li class="nav-item"><a href="undergraduate.html" class="nav-link">Undergraduate</a></li>
-                            <li class="nav-item"><a href="graduate.html" class="nav-link">Graduate</a></li>
-                            <li class="nav-item"><a href="online-education.html" class="nav-link">Online Education</a>
-                            </li>
-                            <li class="nav-item"><a href="faculty.html" class="nav-link">Faculty</a></li>
-                        </ul>
-                    </li> --}}
-                    <li class="nav-item">
-                        <a href="{{ route('produk') }}" class="nav-link {{ request()->routeIs('produk') ? 'active' : '' }}">
-                            Produk
-                        </a>
-                    </li>
-                    <li class="nav-item">
                         <a href="{{ route('blog') }}" class="nav-link {{ request()->routeIs('blog') ? 'active' : '' }}">
                             Blog
                         </a>
 
-                    </li>
+                    </li> --}}
 
                     {{-- <li class="nav-item">
                         <a href="a.html" class="dropdown-toggle nav-link">
