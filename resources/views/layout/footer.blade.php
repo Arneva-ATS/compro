@@ -8,31 +8,31 @@
             <!-- Row 1: Cards move left to right -->
             <div class="col-12 my-2">
                 <div class="d-flex flex-row" id="row-1">
-                    <div class="card flex-shrink-0 m-5 p-5 items-center justify-center"><img style="max-width: 8em; max-height:8em;" src="template/img/logo/inkowapilogo.png" alt="logo inkowapi"/></div>
-                    <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;" src="template/img/logo/kopenas.png" alt="logo kopenas"/></div>
-                    <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;" src="template/img/logo/inkoptan.jpeg" alt="logo inkopawi"/></div>
-                    <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;" src="template/img/logo/inkopal.png" alt="logo inkopawi"/></div>
-                    <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;" src="template/img/logo/dekopin.png" alt="logo inkopawi"/></div>
-                    <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;" src="template/img/logo/inkopal.png" alt="logo inkopawi"/></div>
-                    <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;" src="template/img/logo/inkopal.png" alt="logo inkopawi"/></div>
-                    <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;" src="template/img/logo/inkopal.png" alt="logo inkopawi"/></div>
-                    <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;" src="template/img/logo/inkopal.png" alt="logo inkopawi"/></div>
-                    <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;" src="template/img/logo/inkopal.png" alt="logo inkopawi"/></div>
+                    <div class="card flex-shrink-0 m-5 p-5 items-center justify-center"><img style="max-width: 8em; max-height:8em;" src="{{ asset('template/img/logo/inkowapilogo.png') }}" alt="logo inkowapi"/></div>
+                    <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;" src="{{ asset('template/img/logo/kopenas.png') }}" alt="logo kopenas"/></div>
+                    <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;" src="{{ asset('template/img/logo/inkoptan.jpeg') }}" alt="logo inkopawi"/></div>
+                    <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;" src="{{ asset('template/img/logo/inkopal.png') }}" alt="logo inkopawi"/></div>
+                    <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;" src="{{ asset('template/img/logo/dekopin.png') }}" alt="logo inkopawi"/></div>
+                    <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;" src="{{ asset('template/img/logo/inkopal.png') }}" alt="logo inkopawi"/></div>
+                    <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;" src="{{ asset('template/img/logo/inkopal.png') }}" alt="logo inkopawi"/></div>
+                    <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;" src="{{ asset('template/img/logo/inkopal.png') }}" alt="logo inkopawi"/></div>
+                    <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;" src="{{ asset('template/img/logo/inkopal.png') }}" alt="logo inkopawi"/></div>
+                    <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;" src="{{ asset('template/img/logo/inkopal.png') }}" alt="logo inkopawi"/></div>
                 </div>
             </div>
             <!-- Row 2: Cards move right to left -->
             <div class="col-12 my-5">
                 <div class="d-flex flex-row-reverse" id="row-2">
-                    <div class="card flex-shrink-0 m-5 p-5 items-center justify-center"><img style="max-width: 8em; max-height:8em;" src="template/img/logo/inkoppol.jpg" alt="logo inkowapi"/></div>
-                    <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;" src="template/img/logo/inkopdit.png" alt="logo kopenas"/></div>
-                    <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;" src="template/img/logo/kopindo.jpg" alt="logo inkopawi"/></div>
-                    <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;" src="template/img/logo/inkopontren.jpg" alt="logo inkopawi"/></div>
-                    <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;" src="template/img/logo/inkoveri.png" alt="logo inkopawi"/></div>
-                    <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;" src="template/img/logo/inkopal.png" alt="logo inkopawi"/></div>
-                    <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;" src="template/img/logo/inkopal.png" alt="logo inkopawi"/></div>
-                    <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;" src="template/img/logo/inkopal.png" alt="logo inkopawi"/></div>
-                    <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;" src="template/img/logo/inkopal.png" alt="logo inkopawi"/></div>
-                    <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;" src="template/img/logo/inkopal.png" alt="logo inkopawi"/></div>
+                    <div class="card flex-shrink-0 m-5 p-5 items-center justify-center"><img style="max-width: 8em; max-height:8em;" src="{{ asset('template/img/logo/inkoppol.jpg') }}" alt="logo inkowapi"/></div>
+                    <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;" src="{{ asset('template/img/logo/inkopdit.png') }}" alt="logo kopenas"/></div>
+                    <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;" src="{{ asset('template/img/logo/kopindo.jpg') }}" alt="logo inkopawi"/></div>
+                    <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;" src="{{ asset('template/img/logo/inkopontren.jpg') }}" alt="logo inkopawi"/></div>
+                    <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;" src="{{ asset('template/img/logo/inkoveri.png') }}" alt="logo inkopawi"/></div>
+                    <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;" src="{{ asset('template/img/logo/inkopal.png') }}" alt="logo inkopawi"/></div>
+                    <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;" src="{{ asset('template/img/logo/inkopal.png') }}" alt="logo inkopawi"/></div>
+                    <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;" src="{{ asset('template/img/logo/inkopal.png') }}" alt="logo inkopawi"/></div>
+                    <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;" src="{{ asset('template/img/logo/inkopal.png') }}" alt="logo inkopawi"/></div>
+                    <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;" src="{{ asset('template/img/logo/inkopal.png') }}" alt="logo inkopawi"/></div>
                 </div>
             </div>
         </div>
