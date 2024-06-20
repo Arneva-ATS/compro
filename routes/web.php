@@ -31,6 +31,10 @@ Route::prefix('layanan')->name('layanan.')->group(function () {
     Route::get('integrasi-sistem', function () {
         return view('pages.layanan.integrasi-sistem');
     })->name('integrasi-sistem');
+
+    Route::get('pengembangan-perangkat-lunak', function () {
+        return view('pages.layanan.pengembangan-perangkat-lunak');
+    })->name('pengembangan-perangkat-lunak');
 });
 
 Route::get('/produk', function () {
