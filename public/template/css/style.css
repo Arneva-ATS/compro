@@ -57,7 +57,7 @@ Default CSS
 =================================================*/
 :root {
   --fontFamily: 'Lexend', sans-serif;
-  --mainColor: #2eca7f;
+  --mainColor: #f17a3d;
   --secounderyColor: #F2F8F1;
   --paragraphColor: #7A7A7A;
   --paragraphColorSecond: #B9B9BA;
@@ -2206,9 +2206,11 @@ Features Area CSS
   background-color: var(--whiteColor);
   border-radius: 30px;
 }
-.features-content .content .item .item-content .icon img, .features-content-2 .content .item .item-content .icon img  {
+.features-content .content .item .item-content .icon i, .features-content-2 .content .item .item-content .icon i  {
   content: '';
   position: absolute;
+  font-size: 1.5rem;
+  color: #f17a3d;
   left: 18px;
   top: 16px;
 }
@@ -4559,6 +4561,21 @@ Section Banner Area CSS
 .section-banner .section-info p{
   color: #EEEEEE;
 }
+.section-banner.konsultasi-it{
+  background-image: url(../img/layanan/Konsultasi-IT.png);
+}
+.section-banner.integrasi-sistem{
+  background-image: url(../img/layanan/Integrasi-Sistem.png);
+}
+.section-banner.pengembangan-perangkat-lunak{
+  background-image: url(../img/layanan/Pengembangan-Perangkat-Lunak.png);
+}
+.section-banner.keamanan-siber{
+  background-image: url(../img/layanan/Keamanan-Siber.png);
+}
+.section-banner.dukungan-it{
+  background-image: url(../img/layanan/Dukungan-IT.png);
+}
 .section-banner.bg-1{
   background-image: url(../img/tentang-kami/banner.png);
 }
@@ -5191,11 +5208,11 @@ Go Top CSS
 }
 .preloader-dot:nth-child(3) {
   animation-delay: 0.3s;
-  background: #2eca7f;
+  background: #f0814a;
 }
 .preloader-dot:nth-child(4) {
   animation-delay: 0.4s;
-  background: #2eca7f;
+  background: #f07c42;
 }
 .preloader-dot:nth-child(5) {
   animation-delay: 0.5s;

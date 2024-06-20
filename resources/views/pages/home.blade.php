@@ -12,10 +12,11 @@
                         membantu klien kami menavigasi lanskap digital yang selalu berubah dan mencapai tujuan mereka dengan
                         percaya diri.</p>
                     <div class="buttons-action" data-aos="fade-up" data-aos-delay="100">
-                        <a class="default-btn" style="background-color:#102C57" href="application-form.html">Produk Kami</a>
+                        <a class="default-btn" style="background-color:#f17a3d" href="application-form.html">Produk Kami</a>
                     </div>
-                    <div class="vertical-lr" data-aos="fade-zoom-in" data-aos-delay="100">
-                        <p>Transformative Education <span>12-10-2024</span></p>
+                    <div class="vertical-lr align-items-center" data-aos="fade-zoom-in" data-aos-delay="100">
+                        <p class="d-block mx-auto">Consultant</p>
+                        <p class="d-block mx-auto">Information Technology</p>
                     </div>
 
                     <div class="scroll-down" data-aos="fade-down" data-aos-delay="100">
@@ -45,7 +46,7 @@
                         <h2>Konsultasi IT</h2>
                         <p>Layanan konsultasi TI yang komprehensif untuk membantu bisnis menavigasi kompleksitas teknologi
                         </p>
-                        <a class="default-btn" style="background-color:#102C57;" href="schedule-tour.html">Lihat Detail</a>
+                        <a class="default-btn" style="background-color:#f17a3d;" href="schedule-tour.html">Lihat Detail</a>
                     </div>
                 </div>
                 <div class="content-items" data-dot="<button>02</button>">
@@ -55,7 +56,7 @@
                         <h2>Integrasi Sistem</h2>
                         <p>Layanan integrasi sistem kami berfokus pada pengintegrasian sistem, aplikasi, dan platform TI
                             yang berbeda secara sempurna dalam organisasi Anda</p>
-                        <a class="default-btn" style="background-color:#102C57;" href="schedule-tour.html">Lihat Detail</a>
+                        <a class="default-btn" style="background-color:#f17a3d;" href="schedule-tour.html">Lihat Detail</a>
                     </div>
                 </div>
                 <div class="content-items" data-dot="<button>03</button>">
@@ -65,7 +66,7 @@
                         <h2>Pengembangan Perangkat Lunak</h2>
                         <p>Menggunakan teknologi terbaru dan metodologi yang tepat untuk membuat aplikasi yang dapat
                             diskalakan, aman dan mudah digunakan</p>
-                        <a class="default-btn" style="background-color:#102C57;" href="schedule-tour.html">Lihat Detail</a>
+                        <a class="default-btn" style="background-color:#f17a3d;" href="schedule-tour.html">Lihat Detail</a>
                     </div>
                 </div>
                 <div class="content-items" data-dot="<button>04</button>">
@@ -75,7 +76,7 @@
                         <h2>Komputasi Awan</h2>
                         <p>Membantu Anda dalam mengembangkan strategi cloud, memilih platform cloud yang tepat, dan
                             memigrasikan aplikasi dan data Anda dengan aman ke cloud</p>
-                        <a class="default-btn" style="background-color:#102C57;" href="schedule-tour.html">Lihat Detail</a>
+                        <a class="default-btn" style="background-color:#f17a3d;" href="schedule-tour.html">Lihat Detail</a>
                     </div>
                 </div>
             </div>
@@ -98,7 +99,7 @@
                             <div class="item">
                                 <div class="item-content">
                                     <div class="icon">
-                                        <img src="template/img/icon/features-icon-2.png" alt="image">
+                                        <i class="fas fa-glasses"></i>
                                     </div>
                                     <h3>Konsultasi Ahli
                                     </h3>
@@ -111,7 +112,7 @@
                             <div class="item">
                                 <div class="item-content">
                                     <div class="icon">
-                                        <img src="template/img/icon/features-icon-1.png" alt="image">
+                                        <i class="fas fa-lightbulb"></i>
                                     </div>
                                     <h3>Solusi Inovatif </h3>
                                     <p>Kami memanfaatkan teknologi mutakhir dan pendekatan inovatif untuk memberikan solusi
@@ -122,7 +123,7 @@
                             <div class="item">
                                 <div class="item-content">
                                     <div class="icon">
-                                        <img src="template/img/icon/faculty-icon-2.png" alt="image">
+                                        <i class="fas fa-chess-knight"></i>
                                     </div>
                                     <h3>Pendekatan Berorientasi Klien </h3>
                                     <p>Fokus kami adalah memahami kebutuhan dan tantangan unik Anda. Kami bekerja sama
@@ -133,7 +134,7 @@
                             <div class="item">
                                 <div class="item-content">
                                     <div class="icon">
-                                        <img src="template/img/icon/active.png" alt="image">
+                                        <i class="fas fa-headphones"></i>
                                     </div>
                                     <h3>Dukungan 24/7 </h3>
                                     <p>Kami menyediakan dukungan sepanjang waktu untuk memastikan sistem Anda selalu
@@ -142,7 +143,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <a style="background-color:#102C57;" class="default-btn" href="admission.html">Lihat
+                            <a style="background-color:#f17a3d;" class="default-btn" href="admission.html">Lihat
                                 Selengkapnya</a>
 
                             <div class="arrow-icon">
@@ -223,13 +224,13 @@
     <!-- End Features Area 2 -->
 
     <!-- Start Video Area  -->
-    <div class="video-area">
+    {{-- <div class="video-area">
         <div class="container">
             <div class="video-play-btn" data-aos="fade-zoom-in" data-aos-delay="100">
                 <a class="popup-youtube" href="https://www.youtube.com/watch?v=B03IqRlOhG0">Play</a>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- End Video Area  -->
 
     <!-- Start Faculty Area 2 -->
@@ -248,7 +249,7 @@
                 </div>
                 <div class="col-lg-2" data-aos="fade-up" data-aos-delay="300">
                     <div class="button">
-                        <a class="default-btn" style="background-color:#102C57;"  href="financial-aid.html">Kontak Sales</a>
+                        <a class="default-btn" style="background-color:#f17a3d;"  href="financial-aid.html">Kontak Sales</a>
                     </div>
                 </div>
             </div>

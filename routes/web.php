@@ -23,6 +23,28 @@ Route::prefix('tentang-kami')->name('tentang-kami.')->group(function () {
     })->name('visi-misi');
 });
 
+Route::prefix('layanan')->name('layanan.')->group(function () {
+    Route::get('konsultasi-it', function () {
+        return view('pages.layanan.konsultasi-it');
+    })->name('konsultasi-it');
+
+    Route::get('integrasi-sistem', function () {
+        return view('pages.layanan.integrasi-sistem');
+    })->name('integrasi-sistem');
+
+    Route::get('pengembangan-perangkat-lunak', function () {
+        return view('pages.layanan.pengembangan-perangkat-lunak');
+    })->name('pengembangan-perangkat-lunak');
+
+    Route::get('keamanan-siber', function () {
+        return view('pages.layanan.keamanan-siber');
+    })->name('keamanan-siber');
+
+    Route::get('dukungan-it', function () {
+        return view('pages.layanan.dukungan-it');
+    })->name('dukungan-it');
+});
+
 Route::get('/produk', function () {
     return view('pages.produk');
 })->name('produk');

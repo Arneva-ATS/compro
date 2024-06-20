@@ -2,7 +2,7 @@
     <div class="container-fluid">
         <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand" href="index.html">
-                <img class="logo-light" style="max-width: 9em;" src="{{ asset('template/img/logo/logo_ats-07.png') }}" alt="logo">
+                <img class="logo-light" style="max-width: 9em;" src="{{ asset('template/img/logo/logo_ats-08.png') }}" alt="logo">
                 <img class="logo-dark" style="max-width: 9em;" src="{{ asset('template/img/logo/logo_ats-07.png') }}" alt="logo">
             </a>
             <div class="other-option d-lg-none">
@@ -32,20 +32,35 @@
                             <li class="nav-item"><a href="{{ route('tentang-kami.visi-misi') }}" class="nav-link {{ request()->routeIs('tentang-kami.visi-misi') ? 'active' : '' }}">Visi & Misi</a></li>
                             <li class="nav-item"><a href="#!" class="nav-link">Nilai-Nilai Perusahaan</a></li>
                             <li class="nav-item"><a href="#!" class="nav-link">Tim Kami</a></li>
-                            <li class="nav-item"><a href="#!" class="nav-link">Karir</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a href="#!" class="dropdown-toggle nav-link">
+                        <a href="javascript:void(0)" class="dropdown-toggle nav-link {{ request()->routeIs(['layanan.konsultasi-it', 'layanan.integrasi-sistem', 'layanan.pengembangan-perangkat-lunak', 'layanan.keamanan-siber', 'layanan.dukungan-it']) ? 'active' : '' }}">
                             Layanan
                         </a>
                         <ul class="dropdown-menu">
-                            <li class="nav-item"><a href="#!" class="nav-link">Konsultasi TI</a></li>
-                            <li class="nav-item"><a href="#!" class="nav-link">Integrasi Sistem</a></li>
-                            <li class="nav-item"><a href="#!" class="nav-link">Pengembangan Perangkat Lunak</a></li>
-                            <li class="nav-item"><a href="#!" class="nav-link">Keamanan Siber</a></li>
-                            <li class="nav-item"><a href="#!" class="nav-link">Dukungan TI</a></li>
+                            <li class="nav-item"><a href="{{ route('layanan.konsultasi-it') }}" class="nav-link {{ request()->routeIs('layanan.konsultasi-it') ? 'active' : '' }}">Konsultasi TI</a></li>
+                            <li class="nav-item"><a href="{{ route('layanan.integrasi-sistem') }}" class="nav-link {{ request()->routeIs('layanan.integrasi-sistem') ? 'active' : '' }}">Integrasi Sistem</a></li>
+                            <li class="nav-item"><a href="{{ route('layanan.pengembangan-perangkat-lunak') }}" class="nav-link {{ request()->routeIs('layanan.pengembangan-perangkat-lunak') ? 'active' : '' }}">Pengembangan Perangkat Lunak</a></li>
+                            <li class="nav-item"><a href="{{ route('layanan.keamanan-siber') }}" class="nav-link {{ request()->routeIs('layanan.keamanan-siber') ? 'active' : '' }}">Keamanan Siber</a></li>
+                            <li class="nav-item"><a href="{{ route('layanan.dukungan-it') }}" class="nav-link {{ request()->routeIs('layanan.dukungan-it') ? 'active' : '' }}">Dukungan TI</a></li>
                         </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="javascript:void(0)" class="dropdown-toggle nav-link">
+                            Solusi Bisnis
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item"><a href="#!" class="nav-link">Koperasi Digital</a></li>
+                            <li class="nav-item"><a href="#!" class="nav-link">Rumah Sakit Digital</a></li>
+                            <li class="nav-item"><a href="#!" class="nav-link">Manajemen Rantai Pemasok</a></li>
+                            <li class="nav-item"><a href="#!" class="nav-link">Manajemen Bangunan</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#!" class="nav-link">
+                            Karir
+                        </a>
                     </li>
                     <li class="nav-item">
                         <a href="{{ route('produk') }}" class="dropdown-toggle nav-link {{ request()->routeIs('produk') ? 'active' : '' }}">
@@ -67,7 +82,7 @@
                             <li class="nav-item"><a href="#!" class="nav-link">Tips & Trik</a></li>                            </li>
                         </ul>
                     </li>
-                    <li class="nav-item">
+                    {{-- <li class="nav-item">
                         <a href="#!" class="dropdown-toggle nav-link">
                             Sumber Daya
                         </a>
@@ -76,12 +91,6 @@
                             <li class="nav-item"><a href="#!" class="nav-link">White Papers</a></li>
                             <li class="nav-item"><a href="#!" class="nav-link">e-Books</a></li>                            </li>
                         </ul>
-                    </li>
-                    {{-- <li class="nav-item">
-                        <a href="{{ route('blog') }}" class="nav-link {{ request()->routeIs('blog') ? 'active' : '' }}">
-                            Blog
-                        </a>
-
                     </li> --}}
 
                     {{-- <li class="nav-item">
@@ -105,7 +114,7 @@
                 <div class="others-option d-flex align-items-center">
                     <div class="option-item">
                         <div class="nav-btn">
-                            <a href="{{ route('kontak-kami') }}" class="default-btn" style="background-color:#102C57">Kontak Kami</a>
+                            <a href="{{ route('kontak-kami') }}" class="default-btn" style="background-color:#f17a3d">Kontak Kami</a>
                         </div>
                     </div>
                     <div class="option-item">
