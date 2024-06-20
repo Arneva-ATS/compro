@@ -942,7 +942,10 @@ About Us Area 2 CSS
   background-image: url(../img/layanan/layanan-3.png);
 }
 .about-us-area-2 .content-items .image.ct-bg-4{
-    background-image: url(../img/layanan/layanan-4.jpg);
+    background-image: url(../img/layanan/layanan-4.png);
+  }
+.about-us-area-2 .content-items .image.ct-bg-5{
+    background-image: url(../img/layanan/layanan-5.png);
   }
 
 .about-us-area-2 .content-items .content {
@@ -1012,7 +1015,7 @@ About Us Area 2 CSS
   margin: 0;
   position: absolute;
   width: 65px;
-  right: 32%;
+  right: 30%;
   bottom: 0;
   height: 35px;
   background-color: var(--secounderyColor);
@@ -1030,7 +1033,7 @@ About Us Area 2 CSS
   color: var(--whiteColor);
 }
 .about-content-courser.owl-theme .owl-nav [class*=owl-].owl-next {
-  left: 32%;
+  left: 30%;
 }
 .about-content-courser.owl-theme .owl-nav {
   margin-top: 60px;
@@ -4758,21 +4761,33 @@ Footer Area CSS
 .partner-area{
     background-color: #e2faee;
     padding: 6em;
+    display: flex;
+
 }
-#row-1 .card {
-    animation: move-left-right 5s linear infinite;
-}
-#row-2 .card {
-    animation: move-right-left 5s linear infinite;
+#row-1 {
+    animation: moveLeft 10s linear infinite;
 }
 
-@keyframes move-left-right {
-    0% { transform: translateX(-100%); }
-    100% { transform: translateX(100%); }
+#row-2 {
+    animation: moveRight 10s linear infinite;
 }
-@keyframes move-right-left {
-    0% { transform: translateX(100%); }
-    100% { transform: translateX(-100%); }
+
+@keyframes moveLeft {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes moveRight {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100%);
+    }
 }
 .footer-area{
   background-image: url(../img/all-img/shape-2.png);

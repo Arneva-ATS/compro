@@ -73,9 +73,17 @@
                     <div class="image ct-bg-4" data-aos="fade-zoom-in" data-aos-delay="100">
                     </div>
                     <div class="content" data-aos="fade-up" data-aos-delay="200">
-                        <h2>Komputasi Awan</h2>
-                        <p>Membantu Anda dalam mengembangkan strategi cloud, memilih platform cloud yang tepat, dan
-                            memigrasikan aplikasi dan data Anda dengan aman ke cloud</p>
+                        <h2>Kemanan Siber</h2>
+                        <p>Membantu Anda dalam menjaga aplikasi dan jaringan Anda dari serangan luar yang dapat menimbulkan kerugian</p>
+                        <a class="default-btn" style="background-color:#f17a3d;" href="schedule-tour.html">Lihat Detail</a>
+                    </div>
+                </div>
+                <div class="content-items" data-dot="<button>05</button>">
+                    <div class="image ct-bg-5" data-aos="fade-zoom-in" data-aos-delay="100">
+                    </div>
+                    <div class="content" data-aos="fade-up" data-aos-delay="200">
+                        <h2>Dukungan TI</h2>
+                        <p>Memberikan dukungan pada bisnis Anda selama 24/7</p>
                         <a class="default-btn" style="background-color:#f17a3d;" href="schedule-tour.html">Lihat Detail</a>
                     </div>
                 </div>

@@ -100,12 +100,9 @@
 
                 <div class="info-details">
                     <ul>
-                        <li><i class='bx bxs-phone-call'></i> General Inquiries - <a href="tel:+8495160885">(849) 516-0885</a></li>
-                        <li><i class='bx bxs-phone-call'></i> Enrollment Inquiries - <a href="tel:+18554750885">1-855-475-0885</a></li>
-                        <li><i class='bx bxs-phone-call'></i> Financial Inquiries - <a href="tel:+18554750885"> (849) 516-0885</a>(Option 4)</li>
-                        <li><i class='bx bxs-phone-call'></i> Student Account Inquiries - <a href="tel:+18554750885"> (849) 516-0885</a>(Option 5)</li>
+                        <li><i class='bx bxs-phone-call'></i>  <a href="tel:+8495160885">(+62) 877-8003-0151</a></li>
                         <li><i class='bx bxs-map'></i>Graha Kas LT. 3 Kebayoran Baru, Jakarta Selatan</li>
-                        <li><i class='bx bxs-envelope'></i><a class="info-mail" href="arneva.ts@gmail.com">arneva.ts@gmail.com</a></li>
+                        <li><i class='bx bxs-envelope'></i><a href="arneva.ts@gmail.com">arneva.ts@gmail.com</a></li>
                     </ul>
                 </div>
                 </div>
