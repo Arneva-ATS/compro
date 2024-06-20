@@ -25,13 +25,13 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="javascript:void(0)" class="dropdown-toggle nav-link {{ request()->routeIs('tentang-kami.visi-misi') ? 'active' : '' }}">
+                        <a href="javascript:void(0)" class="dropdown-toggle nav-link {{ request()->routeIs(['tentang-kami.visi-misi', 'tentang-kami.nilai-nilai-perusahaan']) ? 'active' : '' }}">
                             Tentang Kami
                         </a>
                         <ul class="dropdown-menu">
                             <li class="nav-item"><a href="{{ route('tentang-kami.visi-misi') }}" class="nav-link {{ request()->routeIs('tentang-kami.visi-misi') ? 'active' : '' }}">Visi & Misi</a></li>
-                            <li class="nav-item"><a href="#!" class="nav-link">Nilai-Nilai Perusahaan</a></li>
-                            <li class="nav-item"><a href="#!" class="nav-link">Tim Kami</a></li>
+                            <li class="nav-item"><a href="{{ route('tentang-kami.nilai-nilai-perusahaan') }}" class="nav-link {{ request()->routeIs('tentang-kami.nilai-nilai-perusahaan') ? 'active' : '' }}">Nilai-Nilai Perusahaan</a></li>
+                            {{-- <li class="nav-item"><a href="#!" class="nav-link">Tim Kami</a></li> --}}
                         </ul>
                     </li>
                     <li class="nav-item">

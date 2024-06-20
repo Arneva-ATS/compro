@@ -41,7 +41,7 @@
                             <h4 class="title-anim">MITRA TEPERCAYA ANDA UNTUK SOLUSI IT YANG INOVATIF</h4>
                             <p class="title-anim">Kami berdedikasi untuk memberdayakan individu dan bisnis dengan solusi IT transformatif. </p>
                             <div class="author-info">
-                                <h5>Iqbalshah</h5>
+                                <h5>Teuku Iqbalshah</h5>
                                 <p>Founder</p>
                             </div>
                         </div>
@@ -99,21 +99,4 @@
     </div>
 </div>
 <!-- End Campus Tour Area -->
-
-<!-- Start Subscribe Area -->
-<div class="subscribe-area ptb-100">
-    <div class="container">
-        <div class="section-title" data-aos="fade-up" data-aos-delay="100">
-            <div class="sub-title">
-                <i class='bx bxs-graduation'></i> <p>Subscribe to Our Newsletter</p>
-            </div>
-            <h2>Get the Latest Clgun News Delivered to You Inbox</h2>
-        </div>
-
-        <div class="subscribe-btn text-center" data-aos="fade-up" data-aos-delay="100">
-            <a class="default-btn" href="#">Subscribe Now</a>
-        </div>
-    </div>
-</div>
-<!-- End Subscribe Area -->
 @endsection
