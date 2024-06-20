@@ -5,8 +5,8 @@
     <div class="container">
         <div class="banner-spacing">
             <div class="section-info">
-                <h2 data-aos="fade-up" data-aos-delay="100">About Us</h2>
-                <p data-aos="fade-up" data-aos-delay="200">Clgun University is more than just a place of learning; it's a place where dreams take flight, where ideas flourish, and where you'll find the support and...</p>
+                <h2 data-aos="fade-up" data-aos-delay="100">Sejak 2021</h2>
+                <p data-aos="fade-up" data-aos-delay="200">Sebagai penyedia layanan teknologi inovatif terkemuka, kami berusaha untuk membantu klien kami menavigasi lanskap digital yang selalu berubah dan mencapai tujuan mereka dengan percaya diri.</p>
             </div>
         </div>
     </div>
@@ -20,11 +20,11 @@
             <div class="col-lg-5 col-md-12">
                 <div class="text-content" data-aos="fade-up" data-aos-delay="100">
                     <div class="sub-title">
-                        <i class='bx bxs-graduation'></i> <p>About Our University</p>
+                        <i class='bx bxs-bookmark'></i> <p>Tentang Perusahaan Kami</p>
                     </div>
-                     <h2 class="title-anim">Where Knowledge Meets Innovation</h2>
-                    <p class="title-anim">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm tem incid idunt ut labore et dolore magna aliqua. Ut enim ad minim iam quis nostrud xerci tation ulla mco laboris nisi ut</p>
-                    <a class="default-btn" href="schedule-tour.html">Schedule A Tour</a>
+                     <h2 class="title-anim">PT. ARNEVA TEKNOLOGI SOLUSI</h2>
+                    <p class="title-anim">Kami berdedikasi untuk memberdayakan individu dan bisnis dengan solusi IT transformatif. Sebagai penyedia layanan teknologi inovatif terkemuka, kami berusaha untuk membantu klien kami menavigasi lanskap digital yang selalu berubah dan mencapai tujuan mereka dengan percaya diri.</p>
+                    <a class="default-btn" href="#!">Kontak Kami</a>
                 </div>
             </div>
 
@@ -32,17 +32,16 @@
                 <div class="row justify-content-end">
                     <div class="col-lg-6 col-sm-6 col-md-6">
                         <div class="content" data-aos="fade-right" data-aos-delay="100">
-                        <img src="template/img/all-img/about-image.png" alt="image">
+                        <img src="{{ asset('template/img/tentang-kami/building.png') }}" alt="image">
                         </div>
                     </div>
                     <div class="col-lg-6 col-sm-6 col-md-6">
                         <div class="notice-content" data-aos="fade-right" data-aos-delay="200">
                             <i class='bx bxs-quote-left'></i>
-                            <h4 class="title-anim">Knowledge Beyond Boundaries</h4>
-                            <p class="title-anim">Lorem ipsum dolor sit ametco nsectetur adipcing elit sed doe iusm tem incid idunt ut labore et dolore magna aliqua.</p>
+                            <h4 class="title-anim">MITRA TEPERCAYA ANDA UNTUK SOLUSI IT YANG INOVATIF</h4>
+                            <p class="title-anim">Kami berdedikasi untuk memberdayakan individu dan bisnis dengan solusi IT transformatif. </p>
                             <div class="author-info">
-                                <span>John Michael</span>
-                                <h5>John Michael</h5>
+                                <h5>Iqbalshah</h5>
                                 <p>Founder</p>
                             </div>
                         </div>
@@ -61,7 +60,7 @@
             <div class="col-lg-6">
                 <div class="content" data-aos="fade-up" data-aos-delay="100">
                     <div class="sub-title">
-                        <i class='bx bxs-graduation'></i> <p>Core Values</p>
+                        <i class='bx bxs-check-shield'></i> <p>Nilai Utama</p>
                     </div>
                     <h2>VISI</h2>
 
@@ -75,7 +74,6 @@
             </div>
         </div>
         <div class="row g-0 align-items-center">
-
             <div class="col-lg-6">
                 <div class="image cp-bg-2" data-aos="fade-zoom-in" data-aos-delay="100">
                 </div>
@@ -83,7 +81,7 @@
             <div class="col-lg-6">
                 <div class="content" data-aos="fade-up" data-aos-delay="100">
                     <div class="sub-title">
-                        <i class='bx bxs-graduation'></i> <p>Core Values</p>
+                        <i class='bx bxs-check-shield'></i> <p>Nilai Utama</p>
                     </div>
                     <h2>Misi</h2>
 

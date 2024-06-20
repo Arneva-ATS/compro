@@ -2,8 +2,8 @@
     <div class="container-fluid">
         <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand" href="index.html">
-                <img class="logo-light" style="max-width: 9em;" src="template/img/logo/logo_ats-07.png" alt="logo">
-                <img class="logo-dark" style="max-width: 9em;" src="template/img/logo/logo_ats-07.png" alt="logo">
+                <img class="logo-light" style="max-width: 9em;" src="{{ asset('template/img/logo/logo_ats-07.png') }}" alt="logo">
+                <img class="logo-dark" style="max-width: 9em;" src="{{ asset('template/img/logo/logo_ats-07.png') }}" alt="logo">
             </a>
             <div class="other-option d-lg-none">
                 <div class="option-item">

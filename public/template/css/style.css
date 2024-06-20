@@ -4217,10 +4217,10 @@ Campus Tour Area CSS
   padding: 250px;
 }
 .campus-tour .image.cp-bg-1{
-  background-image: url(../img/all-img/campus-1.png);
+  background-image: url(../img/tentang-kami/visi.png);
 }
 .campus-tour .image.cp-bg-2{
-  background-image: url(../img/all-img/campus-2.png);
+  background-image: url(../img/tentang-kami/misi.png);
 }
 .campus-tour .image.cp-bg-3{
   background-image: url(../img/all-img/campus-3.png);
@@ -4560,7 +4560,7 @@ Section Banner Area CSS
   color: #EEEEEE;
 }
 .section-banner.bg-1{
-  background-image: url(../img/banner/section-image-1.png);
+  background-image: url(../img/tentang-kami/banner.png);
 }
 .section-banner.bg-2{
   background-image: url(../img/banner/section-image-2.png);
