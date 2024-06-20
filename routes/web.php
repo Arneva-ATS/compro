@@ -39,6 +39,10 @@ Route::prefix('layanan')->name('layanan.')->group(function () {
     Route::get('keamanan-siber', function () {
         return view('pages.layanan.keamanan-siber');
     })->name('keamanan-siber');
+
+    Route::get('dukungan-it', function () {
+        return view('pages.layanan.dukungan-it');
+    })->name('dukungan-it');
 });
 
 Route::get('/produk', function () {

@@ -36,7 +36,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a href="javascript:void(0)" class="dropdown-toggle nav-link {{ request()->routeIs(['layanan.konsultasi-it', 'layanan.integrasi-sistem', 'layanan.pengembangan-perangkat-lunak', 'layanan.keamanan-siber']) ? 'active' : '' }}">
+                        <a href="javascript:void(0)" class="dropdown-toggle nav-link {{ request()->routeIs(['layanan.konsultasi-it', 'layanan.integrasi-sistem', 'layanan.pengembangan-perangkat-lunak', 'layanan.keamanan-siber', 'layanan.dukungan-it']) ? 'active' : '' }}">
                             Layanan
                         </a>
                         <ul class="dropdown-menu">
@@ -44,7 +44,7 @@
                             <li class="nav-item"><a href="{{ route('layanan.integrasi-sistem') }}" class="nav-link {{ request()->routeIs('layanan.integrasi-sistem') ? 'active' : '' }}">Integrasi Sistem</a></li>
                             <li class="nav-item"><a href="{{ route('layanan.pengembangan-perangkat-lunak') }}" class="nav-link {{ request()->routeIs('layanan.pengembangan-perangkat-lunak') ? 'active' : '' }}">Pengembangan Perangkat Lunak</a></li>
                             <li class="nav-item"><a href="{{ route('layanan.keamanan-siber') }}" class="nav-link {{ request()->routeIs('layanan.keamanan-siber') ? 'active' : '' }}">Keamanan Siber</a></li>
-                            <li class="nav-item"><a href="#!" class="nav-link">Dukungan TI</a></li>
+                            <li class="nav-item"><a href="{{ route('layanan.dukungan-it') }}" class="nav-link {{ request()->routeIs('layanan.dukungan-it') ? 'active' : '' }}">Dukungan TI</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
