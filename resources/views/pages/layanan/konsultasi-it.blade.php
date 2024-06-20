@@ -6,7 +6,7 @@
         <div class="banner-spacing">
             <div class="section-info">
                 <h2 data-aos="fade-up" data-aos-delay="100">Detail Layanan</h2>
-                <p data-aos="fade-up" data-aos-delay="200">Dalam menjalankan layanan integrasi sistem, kami fokus pada penggabungan berbagai aplikasi dan proses bisnis. Melalui pendekatan ini, kami membantu perusahaan untuk mencapai efisiensi operasional yang lebih tinggi dan mempercepat proses bisnis.</p>
+                <p data-aos="fade-up" data-aos-delay="200">Kami bekerja sama dengan klien untuk menganalisis kebutuhan bisnis mereka secara menyeluruh. Melalui pemahaman yang mendalam ini, kami dapat mengembangkan rekomendasi yang tepat sasaran dan strategi yang disesuaikan.</p>
             </div>
         </div>
     </div>
@@ -28,32 +28,32 @@
                             <div class="title">
                                 <h3>Deskripsi Layanan</h3>
                             </div>
-                            <p>Integrasi sistem di Arneva Teknologi Solusi bertujuan untuk menyatukan berbagai sistem dan aplikasi yang terpisah menjadi satu kesatuan yang terkoordinasi dan efisien. Dengan menghilangkan silo data dan meningkatkan visibilitas, kami membantu perusahaan bekerja lebih efisien dan responsif terhadap kebutuhan bisnis yang dinamis.</p>
-                            <p>Layanan kami dirancang untuk meningkatkan integritas data dan memaksimalkan operasional bisnis melalui solusi integrasi yang mulus.</p>
+                            <p>Layanan konsultasi IT di Arneva Teknologi Solusi dirancang untuk membantu perusahaan dalam merancang dan mengimplementasikan solusi teknologi yang tepat dan efektif. Kami memberikan panduan strategis dan taktis untuk memaksimalkan efisiensi operasional dan mengoptimalkan penggunaan teknologi dalam organisasi.</p>
+                            <p>Dengan pendekatan berbasis data dan pengalaman industri yang luas, kami memastikan bahwa setiap solusi yang diterapkan tidak hanya memenuhi kebutuhan bisnis saat ini tetapi juga siap menghadapi tantangan masa depan.</p>
                         </div>
                         <div class="content-pra">
                             <div class="title">
                                 <h3>Manfaat Utama</h3>
                             </div>
-                            <p>Layanan integrasi sistem kami mencakup berbagai aspek penting yang memastikan keberhasilan proyek integrasi. Kami mencakup integrasi aplikasi, integrasi data, dan integrasi proses bisnis, semuanya dirancang untuk memenuhi kebutuhan unik setiap klien. Pendekatan kami memastikan bahwa setiap elemen sistem bekerja secara harmonis, meningkatkan kinerja keseluruhan perusahaan.</p>
+                            <p>Kami menyediakan berbagai layanan untuk membantu perusahaan mengatasi tantangan teknologi mereka. Layanan ini mencakup analisis kebutuhan bisnis, penyusunan strategi TI, dan manajemen proyek. Kami memastikan setiap solusi yang kami terapkan memberikan nilai maksimal dan mendukung pertumbuhan bisnis jangka panjang.</p>
                             <ul class="lists">
                                 <li>
                                     <div class="icon">
                                         <i class='bx bx-check'></i>
                                     </div>
-                                    <p>Integrasi sistem yang baik memungkinkan aliran kerja yang lebih lancar dan efisien, sehingga mengurangi waktu yang dihabiskan untuk tugas-tugas manual</p>
+                                    <p>Kami melakukan evaluasi komprehensif untuk mengidentifikasi area yang memerlukan peningkatan dan mengembangkan solusi yang tepat sasaran</p>
                                 </li>
                                 <li>
                                     <div class="icon">
                                         <i class='bx bx-check'></i>
                                     </div>
-                                    <p>Dengan mengintegrasikan berbagai sistem, kami memastikan bahwa data tetap konsisten dan akurat di seluruh aplikasi</p>
+                                    <p>Setiap perusahaan memiliki kebutuhan unik, oleh karena itu, strategi TI kami disesuaikan untuk mendukung tujuan spesifik dan operasional klien</p>
                                 </li>
                                 <li>
                                     <div class="icon">
                                         <i class='bx bx-check'></i>
                                     </div>
-                                    <p>Proses integrasi mempercepat pengambilan keputusan dengan menyediakan akses cepat ke informasi yang relevan</p>
+                                    <p>Solusi teknologi yang tepat dapat mengotomatisasi proses manual, mengintegrasikan sistem, dan mengoptimalkan penggunaan sumber daya untuk mengurangi biaya operasional</p>
                                 </li>
                             </ul>
                         </div>
@@ -61,25 +61,25 @@
                             <div class="title">
                                 <h3>Ruang Lingkup</h3>
                             </div>
-                            <p>Proses kerja kami dalam integrasi sistem melibatkan beberapa tahapan kritis untuk memastikan keberhasilan implementasi. Kami memulai dengan penilaian sistem yang ada, kemudian merancang arsitektur integrasi yang optimal, dan akhirnya mengimplementasikan solusi serta melakukan pengujian menyeluruh. Setiap langkah dirancang untuk memastikan bahwa integrasi berjalan lancar dan memberikan manfaat maksimal bagi klien.</p>
+                            <p>Proses kerja kami melibatkan penilaian awal, penyusunan rencana, dan implementasi serta monitoring yang berkelanjutan. Kami memastikan bahwa setiap langkah dalam proses ini dilaksanakan dengan tepat dan efektif. Dengan demikian, kami dapat memberikan solusi yang sesuai dengan kebutuhan dan tujuan bisnis klien.</p>
                             <ul class="lists">
                                 <li>
                                     <div class="icon">
                                         <i class='bx bx-check'></i>
                                     </div>
-                                    <p>Menghubungkan berbagai aplikasi bisnis untuk menciptakan aliran kerja yang mulus dan efisien</p>
+                                    <p>Mengevaluasi kondisi saat ini dan kebutuhan teknologi perusahaan melalui wawancara, survei, dan analisis data</p>
                                 </li>
                                 <li>
                                     <div class="icon">
                                         <i class='bx bx-check'></i>
                                     </div>
-                                    <p>Menyediakan solusi untuk sinkronisasi dan migrasi data antar sistem, memastikan data yang akurat dan konsisten</p>
+                                    <p>Mengembangkan roadmap teknologi yang jelas, termasuk perencanaan anggaran dan prioritas implementasi</p>
                                 </li>
                                 <li>
                                     <div class="icon">
                                         <i class='bx bx-check'></i>
                                     </div>
-                                    <p>Menyelaraskan proses bisnis untuk meningkatkan efisiensi dan produktivitas operasional</p>
+                                    <p>Mengelola seluruh siklus proyek TI dari perencanaan hingga pelaksanaan dan evaluasi</p>
                                 </li>
                             </ul>
                         </div>
@@ -87,25 +87,25 @@
                             <div class="title">
                                 <h3>Proses Kerja</h3>
                             </div>
-                            <p>Kami memiliki banyak contoh sukses dari proyek integrasi sistem yang telah kami selesaikan. Salah satu studi kasus yang menonjol adalah sebuah perusahaan e-commerce yang berhasil mengurangi waktu pemrosesan pesanan secara signifikan setelah menggunakan solusi integrasi kami. Pengalaman ini menunjukkan bagaimana layanan kami dapat memberikan dampak positif yang besar terhadap kinerja bisnis.</p>
+                            <p>Kami memiliki banyak contoh sukses dalam membantu perusahaan meningkatkan efisiensi operasional mereka. Salah satu contoh adalah sebuah perusahaan manufaktur yang berhasil meningkatkan efisiensi produksi mereka secara signifikan. Studi kasus ini menunjukkan bagaimana pendekatan kami dalam konsultasi IT dapat memberikan hasil yang nyata dan signifikan.</p>
                             <ul class="lists">
                                 <li>
                                     <div class="icon">
                                         <i class='bx bx-check'></i>
                                     </div>
-                                    <p>Menganalisis infrastruktur TI saat ini untuk mengidentifikasi area yang membutuhkan integrasi</p>
+                                    <p>Mengumpulkan informasi melalui wawancara, survei, dan analisis data untuk memahami situasi saat ini dan kebutuhan spesifik klien</p>
                                 </li>
                                 <li>
                                     <div class="icon">
                                         <i class='bx bx-check'></i>
                                     </div>
-                                    <p>Mengembangkan solusi teknis yang optimal untuk integrasi sistem berdasarkan analisis awal</p>
+                                    <p>Mengembangkan solusi strategis yang dapat diimplementasikan dengan detail mengenai teknologi, langkah-langkah implementasi, timeline, dan anggaran</p>
                                 </li>
                                 <li>
                                     <div class="icon">
                                         <i class='bx bx-check'></i>
                                     </div>
-                                    <p>Mengimplementasikan solusi dan memastikan fungsionalitas yang sempurna melalui pengujian ekstensif sebelum sistem sepenuhnya dioperasikan</p>
+                                    <p>Mendukung pelaksanaan rencana strategi dengan memantau kinerja solusi yang diterapkan dan melakukan penyesuaian jika diperlukan</p>
                                 </li>
                             </ul>
                         </div>
@@ -113,11 +113,11 @@
                             <div class="title">
                                 <h3>Studi Kasus / Testimonial</h3>
                             </div>
-                            <p>Sebuah perusahaan e-commerce menghadapi tantangan dalam pemrosesan pesanan yang memakan waktu lama dan seringkali menyebabkan keterlambatan pengiriman. Setelah bekerja sama dengan Arneva Teknologi Solusi, kami berhasil mengintegrasikan sistem manajemen pesanan mereka dengan sistem inventaris dan pengiriman. Solusi ini tidak hanya mengurangi waktu pemrosesan pesanan dari beberapa jam menjadi beberapa menit, tetapi juga meningkatkan akurasi pengiriman dan kepuasan pelanggan secara signifikan. Perusahaan kini mampu memenuhi pesanan dengan lebih cepat dan efisien, memberikan keunggulan kompetitif di pasar yang sangat kompetitif.</p>
+                            <p>Sebuah perusahaan manufaktur menghadapi tantangan dalam meningkatkan efisiensi produksi dan mengurangi downtime. Setelah bekerja sama dengan Arneva Teknologi Solusi, perusahaan tersebut berhasil meningkatkan efisiensi produksi sebesar 25% dengan menerapkan strategi TI yang disarankan. Kami membantu mereka mengotomatisasi proses manual, mengintegrasikan sistem produksi dengan sistem manajemen, dan mengimplementasikan solusi pemantauan real-time. Hasilnya, perusahaan tidak hanya mengurangi downtime tetapi juga meningkatkan kualitas produk dan kepuasan pelanggan.</p>
                         </div>
                     </div>
 
-                    <p class="mt-3">Dengan layanan integrasi sistem kami, Arneva Teknologi Solusi siap membantu perusahaan Anda untuk menyatukan berbagai sistem dan aplikasi menjadi satu kesatuan yang terkoordinasi dan efisien. Kami berkomitmen untuk memberikan solusi yang tidak hanya efektif tetapi juga dapat diandalkan dalam jangka panjang, memastikan bahwa perusahaan Anda dapat beroperasi dengan optimal dan responsif terhadap perubahan kebutuhan bisnis.</p>
+                    <p class="mt-3">Dengan layanan konsultasi IT kami, Arneva Teknologi Solusi siap membantu perusahaan Anda untuk merancang dan mengimplementasikan solusi teknologi yang dapat mendorong pertumbuhan, meningkatkan efisiensi, dan mengoptimalkan kinerja operasional. Kami berkomitmen untuk memberikan solusi yang tidak hanya efektif tetapi juga dapat diandalkan dalam jangka panjang.</p>
                 </div>
             </div>
             <div class="col-lg-4">
