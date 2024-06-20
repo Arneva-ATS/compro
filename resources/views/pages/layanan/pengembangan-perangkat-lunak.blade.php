@@ -5,8 +5,8 @@
     <div class="container">
         <div class="banner-spacing">
             <div class="section-info">
-                <h2 data-aos="fade-up" data-aos-delay="100">Courses Details</h2>
-                <p data-aos="fade-up" data-aos-delay="200">Clgun University is more than just a place of learning; it's a place where dreams take flight, where ideas flourish, and where you'll find the support and...</p>
+                <h2 data-aos="fade-up" data-aos-delay="100">Detail Layanan</h2>
+                <p data-aos="fade-up" data-aos-delay="200">Kami bekerja sama dengan klien untuk memahami kebutuhan dan tujuan mereka secara mendalam. Melalui pendekatan ini, kami dapat merancang dan mengembangkan perangkat lunak yang benar-benar memenuhi kebutuhan bisnis mereka.</p>
             </div>
         </div>
     </div>
@@ -21,71 +21,103 @@
                 <div class="courses-details">
                     <div class="header-title">
                         <span>Layanan</span>
-                        <h2>Konsultasi IT</h2>
+                        <h2>Pengembangan Perangkat Lunak</h2>
                     </div>
                     <div class="content">
                         <div class="content-pra">
                             <div class="title">
-                                <h3>About This Course</h3>
+                                <h3>Deskripsi Layanan</h3>
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem incid idunt ut labore et dolore magna aliqua. Ut enim ad minim ven iam quis nostrud xerci tation ulla mco laboris nisi ut Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem incid idunt ut labore</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem incid idunt ut labore et doloremgna aliqua. Ut enim ad minim ven iam quis nostrud xerci.</p>
+                            <p>Pengembangan perangkat lunak di Arneva Teknologi Solusi bertujuan untuk menciptakan solusi perangkat lunak yang disesuaikan dengan kebutuhan spesifik klien. Kami membantu perusahaan dalam mengembangkan aplikasi yang inovatif dan efisien, yang dapat meningkatkan produktivitas dan memberikan keunggulan kompetitif.</p>
+                            <p>Dengan pendekatan kolaboratif dan pemahaman mendalam tentang bisnis klien, kami memastikan setiap proyek pengembangan perangkat lunak berhasil dan memberikan nilai tambah yang signifikan.</p>
                         </div>
                         <div class="content-pra">
                             <div class="title">
-                                <h3>Learning Objectives</h3>
+                                <h3>Manfaat Utama</h3>
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem incid idunt ut labore et doloremgna aliqua. Ut enim ad minim ven iam quis nostrud xerci.</p>
+                            <p>Kami menyediakan berbagai layanan untuk membantu perusahaan mengatasi tantangan teknologi mereka. Layanan ini mencakup analisis kebutuhan bisnis, penyusunan strategi TI, dan manajemen proyek. Kami memastikan setiap solusi yang kami terapkan memberikan nilai maksimal dan mendukung pertumbuhan bisnis jangka panjang.</p>
                             <ul class="lists">
                                 <li>
                                     <div class="icon">
                                         <i class='bx bx-check'></i>
                                     </div>
-                                    <p>To promote an entrepreneurial spirit and to consider the option of setting up a company as an employment opportunity</p>
+                                    <p>Kami membangun perangkat lunak yang dirancang khusus untuk memenuhi kebutuhan unik bisnis klien, memastikan solusi yang relevan dan efektif</p>
                                 </li>
                                 <li>
                                     <div class="icon">
                                         <i class='bx bx-check'></i>
                                     </div>
-                                    <p>Development of entrepreneurial skills and use of tools that equip people to work in an entrepreneurial project</p>
+                                    <p>Dengan otomatisasi proses dan penyediaan alat yang tepat, perangkat lunak kami membantu menghemat waktu dan sumber daya</p>
                                 </li>
                                 <li>
                                     <div class="icon">
                                         <i class='bx bx-check'></i>
                                     </div>
-                                    <p>Essential knowledge for those interested in managing their own business</p>
+                                    <p>Solusi teknologi kami membantu perusahaan tetap unggul di pasar dengan menyediakan fitur-fitur inovatif dan fungsionalitas yang optimal</p>
                                 </li>
                             </ul>
                         </div>
                         <div class="content-pra">
                             <div class="title">
-                                <h3>Learning Objectives</h3>
+                                <h3>Ruang Lingkup</h3>
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem incid idunt ut labore et doloremgna aliqua. Ut enim ad minim ven iam quis nostrud xerci.</p>
+                            <p>Proses kerja kami dalam pengembangan perangkat lunak mencakup beberapa tahapan kritis yang dirancang untuk memastikan keberhasilan implementasi. Kami memulai dengan pengumpulan kebutuhan dan analisis, kemudian melanjutkan ke desain dan pengembangan, dan akhirnya melakukan pengujian dan peluncuran. Setiap langkah dilakukan dengan seksama untuk memastikan kualitas dan kepuasan klien.</p>
                             <ul class="lists">
                                 <li>
                                     <div class="icon">
                                         <i class='bx bx-check'></i>
                                     </div>
-                                    <p>To promote an entrepreneurial spirit and to consider the option of setting up a company as an employment opportunity</p>
+                                    <p>Membangun aplikasi web yang responsif dan user-friendly untuk berbagai kebutuhan bisnis</p>
                                 </li>
                                 <li>
                                     <div class="icon">
                                         <i class='bx bx-check'></i>
                                     </div>
-                                    <p>Development of entrepreneurial skills and use of tools that equip people to work in an entrepreneurial project</p>
+                                    <p>Mengembangkan aplikasi mobile yang berjalan mulus di berbagai platform, memastikan aksesibilitas dan kinerja tinggi</p>
                                 </li>
                                 <li>
                                     <div class="icon">
                                         <i class='bx bx-check'></i>
                                     </div>
-                                    <p>Essential knowledge for those interested in managing their own business</p>
+                                    <p>Menciptakan sistem internal yang membantu mengoptimalkan operasi bisnis dan meningkatkan produktivitas tim</p>
                                 </li>
                             </ul>
+                        </div>
+                        <div class="content-pra">
+                            <div class="title">
+                                <h3>Proses Kerja</h3>
+                            </div>
+                            <p>Kami memiliki banyak contoh sukses dari proyek pengembangan perangkat lunak yang telah kami selesaikan. Salah satu studi kasus yang menonjol adalah sebuah aplikasi e-commerce yang berhasil meningkatkan penjualan online secara signifikan setelah menggunakan solusi perangkat lunak kami. Pengalaman ini menunjukkan bagaimana layanan kami dapat memberikan dampak positif yang besar terhadap kinerja bisnis klien.</p>
+                            <ul class="lists">
+                                <li>
+                                    <div class="icon">
+                                        <i class='bx bx-check'></i>
+                                    </div>
+                                    <p>Bekerja dengan klien untuk mengidentifikasi dan mendokumentasikan kebutuhan dan tujuan proyek secara mendetail</p>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <i class='bx bx-check'></i>
+                                    </div>
+                                    <p>Merancang solusi perangkat lunak yang intuitif dan efisien, diikuti dengan pengembangan berdasarkan spesifikasi yang disetujui</p>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <i class='bx bx-check'></i>
+                                    </div>
+                                    <p>Melakukan pengujian menyeluruh untuk memastikan kualitas dan fungsionalitas sebelum perangkat lunak diluncurkan secara resmi</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="content-pra">
+                            <div class="title">
+                                <h3>Studi Kasus / Testimonial</h3>
+                            </div>
+                            <p>Sebuah perusahaan e-commerce menghadapi tantangan dalam meningkatkan penjualan online dan pengalaman pengguna. Setelah bekerja sama dengan Arneva Teknologi Solusi, kami mengembangkan aplikasi e-commerce yang responsif dan mudah digunakan, dengan fitur-fitur seperti pencarian produk yang canggih, checkout yang cepat, dan integrasi dengan berbagai metode pembayaran. Hasilnya, penjualan online perusahaan meningkat sebesar 50% dalam tiga bulan pertama setelah peluncuran aplikasi. Selain itu, tingkat kepuasan pelanggan juga meningkat, dengan lebih banyak ulasan positif dan loyalitas pelanggan yang lebih kuat. Aplikasi ini telah memberikan perusahaan keunggulan kompetitif di pasar yang sangat kompetitif.</p>
                         </div>
                     </div>
 
-                    <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem incid idunt ut labore et doloremgna aliqua. Ut enim ad minim ven iam quis nostrud xerci.</p>
+                    <p class="mt-3">Dengan layanan pengembangan perangkat lunak kami, Arneva Teknologi Solusi siap membantu perusahaan Anda untuk merancang dan mengimplementasikan solusi teknologi yang dapat mendorong pertumbuhan, meningkatkan efisiensi, dan mengoptimalkan kinerja operasional. Kami berkomitmen untuk memberikan solusi yang tidak hanya efektif tetapi juga dapat diandalkan dalam jangka panjang, memastikan bahwa perusahaan Anda dapat beroperasi dengan optimal dan siap menghadapi tantangan masa depan.</p>
                 </div>
             </div>
             <div class="col-lg-4">
