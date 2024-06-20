@@ -5,8 +5,8 @@
     <div class="container">
         <div class="banner-spacing">
             <div class="section-info">
-                <h2 data-aos="fade-up" data-aos-delay="100">Courses Details</h2>
-                <p data-aos="fade-up" data-aos-delay="200">Clgun University is more than just a place of learning; it's a place where dreams take flight, where ideas flourish, and where you'll find the support and...</p>
+                <h2 data-aos="fade-up" data-aos-delay="100">Detail Layanan</h2>
+                <p data-aos="fade-up" data-aos-delay="200">Dalam menjalankan layanan keamanan siber, kami bekerja sama dengan klien untuk memahami kebutuhan keamanan mereka secara menyeluruh. Kami mengidentifikasi risiko potensial dan mengembangkan strategi untuk mengatasi ancaman tersebut.</p>
             </div>
         </div>
     </div>
@@ -21,71 +21,103 @@
                 <div class="courses-details">
                     <div class="header-title">
                         <span>Layanan</span>
-                        <h2>Konsultasi IT</h2>
+                        <h2>Keamanan Siber</h2>
                     </div>
                     <div class="content">
                         <div class="content-pra">
                             <div class="title">
-                                <h3>About This Course</h3>
+                                <h3>Deskripsi Layanan</h3>
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem incid idunt ut labore et dolore magna aliqua. Ut enim ad minim ven iam quis nostrud xerci tation ulla mco laboris nisi ut Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem incid idunt ut labore</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem incid idunt ut labore et doloremgna aliqua. Ut enim ad minim ven iam quis nostrud xerci.</p>
+                            <p>Keamanan siber di Arneva Teknologi Solusi bertujuan untuk melindungi aset digital perusahaan dari berbagai ancaman dan serangan siber. Kami menyediakan solusi keamanan yang komprehensif dan mutakhir untuk memastikan integritas, kerahasiaan, dan ketersediaan data.</p>
+                            <p>Dengan pendekatan proaktif dan pemahaman mendalam tentang ancaman keamanan, kami membantu perusahaan menjaga keamanan sistem mereka dan memenuhi persyaratan regulasi yang ketat.</p>
                         </div>
                         <div class="content-pra">
                             <div class="title">
-                                <h3>Learning Objectives</h3>
+                                <h3>Manfaat Utama</h3>
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem incid idunt ut labore et doloremgna aliqua. Ut enim ad minim ven iam quis nostrud xerci.</p>
+                            <p>Layanan keamanan siber kami mencakup berbagai aspek penting yang memastikan perlindungan menyeluruh terhadap sistem dan data klien. Kami menawarkan penilaian risiko keamanan, implementasi solusi keamanan, serta monitoring dan respons insiden, semuanya dirancang untuk menjaga keamanan operasional bisnis.</p>
                             <ul class="lists">
                                 <li>
                                     <div class="icon">
                                         <i class='bx bx-check'></i>
                                     </div>
-                                    <p>To promote an entrepreneurial spirit and to consider the option of setting up a company as an employment opportunity</p>
+                                    <p>Kami membantu perusahaan menjaga data penting mereka tetap aman dari ancaman internal dan eksternal</p>
                                 </li>
                                 <li>
                                     <div class="icon">
                                         <i class='bx bx-check'></i>
                                     </div>
-                                    <p>Development of entrepreneurial skills and use of tools that equip people to work in an entrepreneurial project</p>
+                                    <p>Melalui deteksi dini dan respons cepat, kami mengidentifikasi dan menangani potensi ancaman sebelum mereka menjadi masalah besar</p>
                                 </li>
                                 <li>
                                     <div class="icon">
                                         <i class='bx bx-check'></i>
                                     </div>
-                                    <p>Essential knowledge for those interested in managing their own business</p>
+                                    <p>Kami membantu klien memenuhi persyaratan regulasi keamanan data yang berlaku, menghindari potensi denda dan kerugian reputasi</p>
                                 </li>
                             </ul>
                         </div>
                         <div class="content-pra">
                             <div class="title">
-                                <h3>Learning Objectives</h3>
+                                <h3>Ruang Lingkup</h3>
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem incid idunt ut labore et doloremgna aliqua. Ut enim ad minim ven iam quis nostrud xerci.</p>
+                            <p>Proses kerja kami dalam keamanan siber mencakup beberapa tahapan kritis yang dirancang untuk memastikan perlindungan maksimal. Kami memulai dengan penilaian awal dan analisis risiko, kemudian melanjutkan ke penyusunan strategi keamanan, dan akhirnya melakukan implementasi serta pemantauan berkelanjutan. Setiap langkah dilakukan dengan seksama untuk memastikan sistem dan data klien tetap aman.</p>
                             <ul class="lists">
                                 <li>
                                     <div class="icon">
                                         <i class='bx bx-check'></i>
                                     </div>
-                                    <p>To promote an entrepreneurial spirit and to consider the option of setting up a company as an employment opportunity</p>
+                                    <p>Mengidentifikasi kerentanan dan risiko potensial dalam sistem melalui evaluasi menyeluruh</p>
                                 </li>
                                 <li>
                                     <div class="icon">
                                         <i class='bx bx-check'></i>
                                     </div>
-                                    <p>Development of entrepreneurial skills and use of tools that equip people to work in an entrepreneurial project</p>
+                                    <p>Menggunakan teknologi canggih dan praktik terbaik untuk melindungi sistem dan data dari ancaman</p>
                                 </li>
                                 <li>
                                     <div class="icon">
                                         <i class='bx bx-check'></i>
                                     </div>
-                                    <p>Essential knowledge for those interested in managing their own business</p>
+                                    <p>Menyediakan pemantauan terus-menerus dan respons cepat terhadap insiden keamanan untuk meminimalkan dampak</p>
                                 </li>
                             </ul>
+                        </div>
+                        <div class="content-pra">
+                            <div class="title">
+                                <h3>Proses Kerja</h3>
+                            </div>
+                            <p>Kami memiliki banyak contoh sukses dari proyek keamanan siber yang telah kami selesaikan. Salah satu studi kasus yang menonjol adalah sebuah perusahaan keuangan yang berhasil mencegah serangan siber besar berkat solusi keamanan siber kami. Pengalaman ini menunjukkan bagaimana layanan kami dapat memberikan dampak positif yang besar terhadap keamanan dan kinerja bisnis klien.</p>
+                            <ul class="lists">
+                                <li>
+                                    <div class="icon">
+                                        <i class='bx bx-check'></i>
+                                    </div>
+                                    <p>Mengidentifikasi risiko dan kerentanan dalam sistem melalui wawancara, survei, dan analisis data</p>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <i class='bx bx-check'></i>
+                                    </div>
+                                    <p>Mengembangkan rencana keamanan yang komprehensif untuk melindungi aset digital klien</p>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <i class='bx bx-check'></i>
+                                    </div>
+                                    <p>Melakukan tindakan pencegahan dan memantau sistem untuk memastikan keamanan yang berkelanjutan, dengan respons cepat terhadap setiap insiden yang terjadi</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="content-pra">
+                            <div class="title">
+                                <h3>Studi Kasus / Testimonial</h3>
+                            </div>
+                            <p>Sebuah perusahaan keuangan menghadapi ancaman siber yang serius dengan adanya upaya serangan berulang yang berpotensi merusak data sensitif pelanggan. Setelah bekerja sama dengan Arneva Teknologi Solusi, kami melakukan penilaian risiko menyeluruh dan mengimplementasikan solusi keamanan yang canggih termasuk firewall, enkripsi data, dan sistem deteksi intrusi. Selain itu, kami juga menyediakan pelatihan keamanan bagi staf untuk meningkatkan kesadaran dan kemampuan mereka dalam menghadapi ancaman siber. Hasilnya, perusahaan berhasil mencegah serangan siber besar, menjaga data pelanggan tetap aman dan meningkatkan kepercayaan pelanggan terhadap perusahaan. Kepatuhan terhadap regulasi keamanan data juga meningkat, menghindari potensi denda dan kerugian reputasi.</p>
                         </div>
                     </div>
 
-                    <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem incid idunt ut labore et doloremgna aliqua. Ut enim ad minim ven iam quis nostrud xerci.</p>
+                    <p class="mt-3">Dengan layanan keamanan siber kami, Arneva Teknologi Solusi siap membantu perusahaan Anda untuk melindungi aset digital dari ancaman dan serangan siber. Kami berkomitmen untuk memberikan solusi yang tidak hanya efektif tetapi juga dapat diandalkan dalam jangka panjang, memastikan bahwa perusahaan Anda dapat beroperasi dengan aman dan siap menghadapi ancaman yang semakin canggih di masa depan.</p>
                 </div>
             </div>
             <div class="col-lg-4">
