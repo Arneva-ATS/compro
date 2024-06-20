@@ -4754,6 +4754,26 @@ Subscribe Area CSS
 /*================================================
 Footer Area CSS
 =================================================*/
+
+.partner-area{
+    background-color: #e2faee;
+    padding: 6em;
+}
+#row-1 .card {
+    animation: move-left-right 5s linear infinite;
+}
+#row-2 .card {
+    animation: move-right-left 5s linear infinite;
+}
+
+@keyframes move-left-right {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+}
+@keyframes move-right-left {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
 .footer-area{
   background-image: url(../img/all-img/shape-2.png);
   background-size: cover;

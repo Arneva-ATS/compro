@@ -635,20 +635,5 @@
     </div>
     <!-- End Success Area 2 -->
 
-    <!-- Start Subscribe Area 2 -->
-    <div class="subscribe-area subscribe-area-2">
-        <div class="container">
-            <div class="section-title section-title-2" data-aos="fade-up" data-aos-delay="100">
-                <div class="sub-title">
-                    <p>Subscribe to Our Newsletter</p>
-                </div>
-                <h2>Get the Latest Canyon News Delivered to You Inbox</h2>
-            </div>
 
-            <div class="subscribe-btn text-center" data-aos="fade-up" data-aos-delay="200">
-                <a class="default-btn" href="#">Subscribe Now</a>
-            </div>
-        </div>
-    </div>
-    <!-- End Subscribe Area 2 -->
 @endsection
