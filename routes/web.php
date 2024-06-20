@@ -21,6 +21,10 @@ Route::prefix('tentang-kami')->name('tentang-kami.')->group(function () {
     Route::get('visi-misi', function () {
         return view('pages.tentang-kami.visi-misi');
     })->name('visi-misi');
+
+    Route::get('nilai-nilai-perusahaan', function () {
+        return view('pages.tentang-kami.nilai-nilai-perusahaan');
+    })->name('nilai-nilai-perusahaan');
 });
 
 Route::prefix('layanan')->name('layanan.')->group(function () {

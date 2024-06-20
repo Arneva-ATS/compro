@@ -41,7 +41,7 @@
                             <h4 class="title-anim">MITRA TEPERCAYA ANDA UNTUK SOLUSI IT YANG INOVATIF</h4>
                             <p class="title-anim">Kami berdedikasi untuk memberdayakan individu dan bisnis dengan solusi IT transformatif. </p>
                             <div class="author-info">
-                                <h5>Iqbalshah</h5>
+                                <h5>Teuku Iqbalshah</h5>
                                 <p>Founder</p>
                             </div>
                         </div>
