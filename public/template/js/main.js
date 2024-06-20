@@ -3,7 +3,7 @@
 
 	// Header Sticky
 	$(window).on('scroll',function() {
-		if ($(this).scrollTop() > 35){  
+		if ($(this).scrollTop() > 35){
 			$('.navbar-area').addClass("sticky");
 		}
 		else{
@@ -178,7 +178,7 @@
 		preloader: false,
 		fixedContentPos: false
 	});
-	
+
 	// Testimonial Slides
 	$('.lgun-testimonial-navigator').owlCarousel({
 		loop: true,
@@ -193,32 +193,32 @@
 		]
 	});
 
-	// Animation 
+	// Animation
 	AOS.init({
 		once: true,
 		duration: 2000,
 	});
 
-	// Faq section 
+	// Faq section
 	const faqItems = document.querySelectorAll('.faq-item');
 
 	faqItems.forEach(item => {
 	  const question = item.querySelector('.faq-question');
 	  const answer = item.nextElementSibling;
 	  const icon = item.querySelector('i');
-	
+
 	  item.addEventListener('click', () => {
 		faqItems.forEach(otherItem => {
 		  if (otherItem !== item) {
 			const otherAnswer = otherItem.nextElementSibling;
 			const otherIcon = otherItem.querySelector('i');
-	
+
 			otherAnswer.classList.remove('active');
 			otherIcon.classList.remove('active');
 			otherAnswer.style.maxHeight = "0";
 		  }
 		});
-	
+
 		answer.classList.toggle('active');
 		icon.classList.toggle('active');
 		if (answer.classList.contains('active')) {
@@ -237,13 +237,13 @@
 
 	// Go to Top
 	$(function(){
-		
+
 		// Scroll Event
 		$(window).on('scroll', function(){
 			var scrolled = $(window).scrollTop();
 			if (scrolled > 600) $('.go-top').addClass('active');
 			if (scrolled < 600) $('.go-top').removeClass('active');
-		});  
+		});
 
 		// Click Event
 		$('.go-top').on('click', function() {

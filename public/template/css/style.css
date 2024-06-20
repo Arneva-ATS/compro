@@ -3518,7 +3518,7 @@ Faculty CSS
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: var(--greyColor);
+  background-color: var(--mainColor);
 }
 
 .faculty-area .content {
@@ -3548,6 +3548,7 @@ Faculty CSS
 
 .faculty-area-2 .content p{
   color: var(--paragraphColorSecond);
+  font-size: 18px;
 }
 
 .faculty-area-3 .content {
@@ -4146,15 +4147,21 @@ Campus Area 2 CSS
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: var(--blackColor);
+  background-color: #000;
 }
 
-.campus-area-2 .section-title-2 h2{
-  color: var(--blackColor);
+.campus-area-2 .section-title{
+  max-width: 1200px;
+}
+
+.campus-area-2 .section-title-2 h4{
+  color: white;
+  font-weight: normal;
 }
 
 .campus-area-2 .section-title-2 .sub-title p{
-  color: var(--paragraphColorSecond);
+  color: white;
+  font-weight: bold;
 }
 
 .campus-card {
@@ -5209,4 +5216,42 @@ Go Top CSS
   100% {
     scale: 1;
  }
+}
+
+/* Slider Iso Homepage */
+.slider-iso{
+    position: relative;
+}
+
+.slider-iso.owl-theme .owl-nav [class*=owl-]{
+    background-color: var(--secounderyColor);
+    transition: var(--transition);
+    margin: 0;
+    position: absolute;
+    left: -25px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: var(--blackColor);
+    border-radius: 50%;
+    font-size: 25px;
+    padding: 0;
+    text-align: center;
+    -webkit-transition: var(--transition);
+    transition: var(--transition);
+}
+
+.slider-iso.owl-theme .owl-nav [class*=owl-]:hover{
+    color: var(--whiteColor);
+    background-color: var(--mainColor);
+}
+
+.slider-iso.owl-theme .owl-nav [class*=owl-].owl-next{
+    left: auto;
+    right: -25px;
+}
+
+.slider-iso-btn {
+    text-align: center;
+    margin-top: 30px;
 }
