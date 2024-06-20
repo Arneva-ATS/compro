@@ -1,7 +1,7 @@
 @extends('master')
 @section('content')
 <!-- Start Section Banner Area -->
-<div class="section-banner bg-7">
+<div class="section-banner keamanan-siber">
     <div class="container">
         <div class="banner-spacing">
             <div class="section-info">
