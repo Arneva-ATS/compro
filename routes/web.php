@@ -49,6 +49,24 @@ Route::prefix('layanan')->name('layanan.')->group(function () {
     })->name('dukungan-it');
 });
 
+Route::prefix('solusi-bisnis')->name('solusi-bisnis.')->group(function () {
+    Route::get('koperasi-digital', function () {
+        return view('pages.solusi-bisnis.koperasi-digital');
+    })->name('koperasi-digital');
+
+    Route::get('rumah-sakit-digital', function () {
+        return view('pages.solusi-bisnis.rumah-sakit-digital');
+    })->name('rumah-sakit-digital');
+
+    Route::get('manajemen-rantai-pemasok', function () {
+        return view('pages.solusi-bisnis.manajemen-rantai-pemasok');
+    })->name('manajemen-rantai-pemasok');
+
+    Route::get('manajemen-gedung', function () {
+        return view('pages.solusi-bisnis.manajemen-gedung');
+    })->name('manajemen-gedung');
+});
+
 Route::get('/produk', function () {
     return view('pages.produk');
 })->name('produk');

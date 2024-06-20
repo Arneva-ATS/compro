@@ -47,14 +47,14 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a href="javascript:void(0)" class="dropdown-toggle nav-link">
+                        <a href="javascript:void(0)" class="dropdown-toggle nav-link {{ request()->routeIs(['solusi-bisnis.koperasi-digital', 'solusi-bisnis.rumah-sakit-digital', 'solusi-bisnis.manajemen-rantai-pemasok', 'solusi-bisnis.manajemen-gedung']) ? 'active' : '' }}">
                             Solusi Bisnis
                         </a>
                         <ul class="dropdown-menu">
-                            <li class="nav-item"><a href="#!" class="nav-link">Koperasi Digital</a></li>
-                            <li class="nav-item"><a href="#!" class="nav-link">Rumah Sakit Digital</a></li>
-                            <li class="nav-item"><a href="#!" class="nav-link">Manajemen Rantai Pemasok</a></li>
-                            <li class="nav-item"><a href="#!" class="nav-link">Manajemen Bangunan</a></li>
+                            <li class="nav-item"><a href="{{ route('solusi-bisnis.koperasi-digital') }}" class="nav-link {{ request()->routeIs('solusi-bisnis.koperasi-digital') ? 'active' : '' }}">Koperasi Digital</a></li>
+                            <li class="nav-item"><a href="{{ route('solusi-bisnis.rumah-sakit-digital') }}" class="nav-link {{ request()->routeIs('solusi-bisnis.rumah-sakit-digital') ? 'active' : '' }}">Rumah Sakit Digital</a></li>
+                            <li class="nav-item"><a href="{{ route('solusi-bisnis.manajemen-rantai-pemasok') }}" class="nav-link {{ request()->routeIs('solusi-bisnis.manajemen-rantai-pemasok') ? 'active' : '' }}">Manajemen Rantai Pemasok</a></li>
+                            <li class="nav-item"><a href="{{ route('solusi-bisnis.manajemen-gedung') }}" class="nav-link {{ request()->routeIs('solusi-bisnis.manajemen-gedung') ? 'active' : '' }}">Manajemen Gedung</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">

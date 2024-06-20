@@ -272,7 +272,7 @@
         <div class="container-fluaid">
             <div class="section-title section-title-2" data-aos="fade-up" data-aos-delay="100">
                 <div class="sub-title">
-                    <p class="text-white">Keberhasilan dalam Setiap Langkah Kami</p>
+                    <p class="text-white mb-3">Keberhasilan dalam Setiap Langkah Kami</p>
                 </div>
                 <h4>Kami bangga telah bekerja sama dengan berbagai klien dari berbagai industri untuk mengimplementasikan solusi IT yang inovatif dan efektif.</h3>
             </div>
@@ -390,78 +390,6 @@
                     </div>
                 </div>
             </div>
-
-            <!-- Start Event Area -->
-            <div class="event-area-3 pb-100 pt-100">
-                <div class="container">
-                    <div class="section-title" data-aos="fade-up" data-aos-delay="100">
-                        <div class="sub-title">
-                            <i class="bx bxs-graduation"></i> <p>University Alumni</p>
-                        </div>
-                        <h2>Alumni Events Stories</h2>
-                    </div>
-
-                    <div class="slider-iso owl-carousel owl-theme">
-                        <div class="blog-single-card" data-aos="fade-up" data-aos-delay="100">
-                            <div class="image">
-                                <img src="{{ asset('template/img/iso/Information-Security-Management-System.png') }}" style="height: 25rem!important;" alt="image">
-                            </div>
-                            <div class="content">
-                            <div class="meta">
-                                <ul>
-                                    <li>Mar 17, 2024</li>
-                                </ul>
-                            </div>
-                            <h3><a href="blog-details.html">A Global MBA for The Next Generation of Business Leaders</a></h3>
-                            <a class="butn" href="blog-details.html">Read More <i class="bx bx-right-arrow-alt"></i></a>
-                        </div>
-                        </div>
-                        <div class="blog-single-card" data-aos="fade-up" data-aos-delay="200">
-                            <div class="image">
-                                <img src="{{ asset('template/img/iso/Quality-Management-System.png') }}" style="height: 25rem!important;" alt="image">
-                            </div>
-                            <div class="content">
-                            <div class="meta">
-                                <ul>
-                                    <li>Mar 17, 2024</li>
-                                </ul>
-                            </div>
-                            <h3><a href="blog-details.html">A Global MBA for The Next Generation of Business Leaders</a></h3>
-                            <a class="butn" href="blog-details.html">Read More <i class="bx bx-right-arrow-alt"></i></a>
-                        </div>
-                        </div>
-                        <div class="blog-single-card" data-aos="fade-up" data-aos-delay="300">
-                            <div class="image">
-                                <img src="{{ asset('template/img/iso/Information-Technology-Service-Management-System.png') }}" style="height: 25rem!important;" alt="image">
-                            </div>
-                            <div class="content">
-                            <div class="meta">
-                                <ul>
-                                    <li>Mar 17, 2024</li>
-                                </ul>
-                            </div>
-                            <h3><a href="blog-details.html">A Global MBA for The Next Generation of Business Leaders</a></h3>
-                            <a class="butn" href="blog-details.html">Read More <i class="bx bx-right-arrow-alt"></i></a>
-                        </div>
-                        </div>
-                        <div class="blog-single-card" data-aos="fade-up" data-aos-delay="400">
-                            <div class="image">
-                                <img src="{{ asset('template/img/iso/Risk-Management-System.png') }}" style="height: 25rem!important;" alt="image">
-                            </div>
-                            <div class="content">
-                            <div class="meta">
-                                <ul>
-                                    <li>Mar 17, 2024</li>
-                                </ul>
-                            </div>
-                            <h3><a href="blog-details.html">A Global MBA for The Next Generation of Business Leaders</a></h3>
-                            <a class="butn" href="blog-details.html">Read More <i class="bx bx-right-arrow-alt"></i></a>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- End Event Area -->
 
             <!-- Recent Post & Event -->
             <div class="row">

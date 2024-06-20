@@ -121,37 +121,33 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                <div class="course-widget-area">
-                    <div class="image">
-                        <img src="{{ asset('template/img/all-img/course-video.png') }}" alt="image">
-                        <div class="play-btn">
-                            <a href="https://youtu.be/SbuRnwgG8rs?si=Oew2tM_U0WQPjJte" class="popup-youtube"><i class='bx bx-play'></i></a>
+                <div class="row">
+                    <div class="col-12 mb-3">
+                        <div class="course-widget-area">
+                            <div class="image">
+                                <img src="{{ asset('template/img/layanan/1.png') }}" alt="image">
+                            </div>
                         </div>
                     </div>
-                    <div class="content">
-                        <div class="pricing">
-                            <h4>$0</h4>
+                    {{-- <div class="col-12 mb-3">
+                        <div class="course-widget-area">
+                            <div class="image">
+                                <img src="{{ asset('template/img/all-img/course-video.png') }}" alt="image">
+                            </div>
                         </div>
-                        <ul>
-                            <li>
-                                <span>Level</span>
-                                <p>Graduate</p>
-                            </li>
-                            <li>
-                                <span>Duration</span>
-                                <p>21.3 hours</p>
-                            </li>
-                            <li>
-                                <span>Subject</span>
-                                <p>Business</p>
-                            </li>
-                            <li>
-                                <span>Language</span>
-                                <p>English</p>
-                            </li>
-                        </ul>
-                        <a class="enroll-btn" href="#">Enroll Now</a>
-                        <a class="wish-btn" href="#">Add to wishlist</a>
+                    </div> --}}
+                    <div class="col-12 academics-section mb-3">
+                        <div class="academics-left" style="margin-left:20px;">
+                            <div class="ac-category">
+                                <ul>
+                                    <li><a class="mb-2 active" href="{{ route('layanan.konsultasi-it') }}">Konsultasi TI</a></li>
+                                    <li><a class="mb-2" href="{{ route('layanan.integrasi-sistem') }}">Integrasi Sistem</a></li>
+                                    <li><a class="mb-2" href="{{ route('layanan.pengembangan-perangkat-lunak') }}">Pengembangan Perangkat Lunak</a></li>
+                                    <li><a class="mb-2" href="{{ route('layanan.keamanan-siber') }}">Keamanan Siber</a></li>
+                                    <li><a class="mb-2" href="{{ route('layanan.dukungan-it') }}">Dukungan TI</a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
