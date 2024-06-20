@@ -36,12 +36,12 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a href="#!" class="dropdown-toggle nav-link">
+                        <a href="javascript:void(0)" class="dropdown-toggle nav-link {{ request()->routeIs(['layanan.konsultasi-it', 'layanan.integrasi-sistem']) ? 'active' : '' }}">
                             Layanan
                         </a>
                         <ul class="dropdown-menu">
-                            <li class="nav-item"><a href="#!" class="nav-link">Konsultasi TI</a></li>
-                            <li class="nav-item"><a href="#!" class="nav-link">Integrasi Sistem</a></li>
+                            <li class="nav-item"><a href="{{ route('layanan.konsultasi-it') }}" class="nav-link {{ request()->routeIs('layanan.konsultasi-it') ? 'active' : '' }}">Konsultasi TI</a></li>
+                            <li class="nav-item"><a href="{{ route('layanan.integrasi-sistem') }}" class="nav-link {{ request()->routeIs('layanan.integrasi-sistem') ? 'active' : '' }}">Integrasi Sistem</a></li>
                             <li class="nav-item"><a href="#!" class="nav-link">Pengembangan Perangkat Lunak</a></li>
                             <li class="nav-item"><a href="#!" class="nav-link">Keamanan Siber</a></li>
                             <li class="nav-item"><a href="#!" class="nav-link">Dukungan TI</a></li>

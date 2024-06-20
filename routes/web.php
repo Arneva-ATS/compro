@@ -23,6 +23,16 @@ Route::prefix('tentang-kami')->name('tentang-kami.')->group(function () {
     })->name('visi-misi');
 });
 
+Route::prefix('layanan')->name('layanan.')->group(function () {
+    Route::get('konsultasi-it', function () {
+        return view('pages.layanan.konsultasi-it');
+    })->name('konsultasi-it');
+
+    Route::get('integrasi-sistem', function () {
+        return view('pages.layanan.integrasi-sistem');
+    })->name('integrasi-sistem');
+});
+
 Route::get('/produk', function () {
     return view('pages.produk');
 })->name('produk');
