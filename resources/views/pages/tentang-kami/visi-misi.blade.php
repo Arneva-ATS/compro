@@ -22,7 +22,7 @@
                     <div class="sub-title">
                         <i class='bx bxs-bookmark'></i> <p>Tentang Perusahaan Kami</p>
                     </div>
-                     <h2 class="title-anim">PT. ARNEVA TEKNOLOGI SOLUSI</h2>
+                     <h2 class="title-anim">ARNEVA TEKNOLOGI SOLUSI</h2>
                     <p class="title-anim">Kami berdedikasi untuk memberdayakan individu dan bisnis dengan solusi IT transformatif. Sebagai penyedia layanan teknologi inovatif terkemuka, kami berusaha untuk membantu klien kami menavigasi lanskap digital yang selalu berubah dan mencapai tujuan mereka dengan percaya diri.</p>
                     <a class="default-btn" href="#!">Kontak Kami</a>
                 </div>

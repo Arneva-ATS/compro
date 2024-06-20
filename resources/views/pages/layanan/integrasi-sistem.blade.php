@@ -20,15 +20,8 @@
             <div class="col-lg-8">
                 <div class="courses-details">
                     <div class="header-title">
-                        <span>Business</span>
-                        <h2>Environmental Science and Sustainability</h2>
-                        <ul>
-                            <li><img class="avater" src="{{ asset('template/img/all-img/teacher-img.png') }}" alt="image"> <p>With <a href="#">Anthony Steven</a></p></li>
-                            <li><p>October 4,2024</p></li>
-                        </ul>
-                        <div class="enrolls-count">
-                            <img src="{{ asset('template/img/icon/reading-2.png') }}" class="ikon" alt="icon"> <p>5 already enrolled</p>
-                        </div>
+                        <span>Layanan</span>
+                        <h2>Konsultasi IT</h2>
                     </div>
                     <div class="content">
                         <div class="content-pra">
@@ -37,15 +30,6 @@
                             </div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem incid idunt ut labore et dolore magna aliqua. Ut enim ad minim ven iam quis nostrud xerci tation ulla mco laboris nisi ut Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem incid idunt ut labore</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem incid idunt ut labore et doloremgna aliqua. Ut enim ad minim ven iam quis nostrud xerci.</p>
-
-                            <div class="tag">
-                               <span>Tag:</span>
-                               <ul>
-                                <li><a href="#">Branding,</a></li>
-                                <li><a href="#">Design,</a></li>
-                                <li><a href="#">Graphic</a></li>
-                               </ul>
-                            </div>
                         </div>
                         <div class="content-pra">
                             <div class="title">
@@ -75,134 +59,33 @@
                         </div>
                         <div class="content-pra">
                             <div class="title">
-                                <h3>Material Includes</h3>
+                                <h3>Learning Objectives</h3>
                             </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem incid idunt ut labore et doloremgna aliqua. Ut enim ad minim ven iam quis nostrud xerci.</p>
                             <ul class="lists">
                                 <li>
                                     <div class="icon">
                                         <i class='bx bx-check'></i>
                                     </div>
-                                    <p>Videos</p>
+                                    <p>To promote an entrepreneurial spirit and to consider the option of setting up a company as an employment opportunity</p>
                                 </li>
                                 <li>
                                     <div class="icon">
                                         <i class='bx bx-check'></i>
                                     </div>
-                                    <p>Booklets</p>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="content-pra">
-                            <div class="title">
-                                <h3>Requirements</h3>
-                            </div>
-                            <ul class="lists">
-                                <li>
-                                    <div class="icon">
-                                        <i class='bx bx-check'></i>
-                                    </div>
-                                    <p>Passion for entrepreneurship</p>
+                                    <p>Development of entrepreneurial skills and use of tools that equip people to work in an entrepreneurial project</p>
                                 </li>
                                 <li>
                                     <div class="icon">
                                         <i class='bx bx-check'></i>
                                     </div>
-                                    <p>Basic business concepts</p>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="content-pra">
-                            <div class="title">
-                                <h3>Target Audience</h3>
-                            </div>
-                            <ul class="lists">
-                                <li>
-                                    <div class="icon">
-                                        <i class='bx bx-check'></i>
-                                    </div>
-                                    <p>Young Entrepreneurs</p>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <i class='bx bx-check'></i>
-                                    </div>
-                                    <p>Business Persons</p>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <i class='bx bx-check'></i>
-                                    </div>
-                                    <p>College Students</p>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <i class='bx bx-check'></i>
-                                    </div>
-                                    <p>Professionals</p>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <i class='bx bx-check'></i>
-                                    </div>
-                                    <p>Startups</p>
+                                    <p>Essential knowledge for those interested in managing their own business</p>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <div class="instructor-card">
-                        <div class="title">
-                            <h3>Your Instructors</h3>
-                        </div>
-                        <div class="row align-items-center">
-                            <div class="col-lg-5 col-sm-6 col-md-5">
-                                <div class="image">
-                                    <img src="{{ asset('template/img/all-img/instructor.png') }}" alt="image">
-                                </div>
-                            </div>
-                            <div class="col-lg-7 col-sm-6 col-md-7">
-                                <div class="content">
-                                    <h3>Anthony Steven</h3>
-                                    <div class="review">
-                                        <div class="left">
-                                            <ul>
-                                                <li><i class='bx bxs-star' ></i></li>
-                                                <li><i class='bx bxs-star' ></i></li>
-                                                <li><i class='bx bxs-star' ></i></li>
-                                                <li><i class='bx bxs-star' ></i></li>
-                                                <li><i class='bx bxs-star' ></i></li>
-                                            </ul>
-                                        </div>
-                                        <div class="rights">
-                                            <p>Review 0/5</p>
-                                        </div>
-                                    </div>
-                                    <ul>
-                                        <li>
-                                            <div class="image-circle">
-                                                <img src="{{ asset('template/img/icon/icon-1.png') }}" alt="image">
-                                            </div>
-                                            <span>432</span>
-                                        </li>
-                                        <li>
-                                            <div class="image-circle">
-                                                <img src="{{ asset('template/img/icon/icon-2.png') }}" alt="image">
-                                            </div>
-                                            <span>1.2k</span>
-                                        </li>
-                                        <li>
-                                            <div class="image-circle">
-                                                <img src="{{ asset('template/img/icon/icon-3.png') }}" alt="image">
-                                            </div>
-                                            <span>5.0</span>
-                                        </li>
-                                    </ul>
-                                    <a href="#">See more</a>
-                                </div>
 
-                            </div>
-                        </div>
-
-                    </div>
+                    <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem incid idunt ut labore et doloremgna aliqua. Ut enim ad minim ven iam quis nostrud xerci.</p>
                 </div>
             </div>
             <div class="col-lg-4">

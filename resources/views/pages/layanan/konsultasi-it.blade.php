@@ -5,8 +5,8 @@
     <div class="container">
         <div class="banner-spacing">
             <div class="section-info">
-                <h2 data-aos="fade-up" data-aos-delay="100">Courses Details</h2>
-                <p data-aos="fade-up" data-aos-delay="200">Clgun University is more than just a place of learning; it's a place where dreams take flight, where ideas flourish, and where you'll find the support and...</p>
+                <h2 data-aos="fade-up" data-aos-delay="100">Detail Layanan</h2>
+                <p data-aos="fade-up" data-aos-delay="200">Dalam menjalankan layanan integrasi sistem, kami fokus pada penggabungan berbagai aplikasi dan proses bisnis. Melalui pendekatan ini, kami membantu perusahaan untuk mencapai efisiensi operasional yang lebih tinggi dan mempercepat proses bisnis.</p>
             </div>
         </div>
     </div>
@@ -20,189 +20,104 @@
             <div class="col-lg-8">
                 <div class="courses-details">
                     <div class="header-title">
-                        <span>Business</span>
-                        <h2>Environmental Science and Sustainability</h2>
-                        <ul>
-                            <li><img class="avater" src="{{ asset('template/img/all-img/teacher-img.png') }}" alt="image"> <p>With <a href="#">Anthony Steven</a></p></li>
-                            <li><p>October 4,2024</p></li>
-                        </ul>
-                        <div class="enrolls-count">
-                            <img src="{{ asset('template/img/icon/reading-2.png') }}" class="ikon" alt="icon"> <p>5 already enrolled</p>
-                        </div>
+                        <span>Layanan</span>
+                        <h2>Konsultasi IT</h2>
                     </div>
                     <div class="content">
                         <div class="content-pra">
                             <div class="title">
-                                <h3>About This Course</h3>
+                                <h3>Deskripsi Layanan</h3>
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem incid idunt ut labore et dolore magna aliqua. Ut enim ad minim ven iam quis nostrud xerci tation ulla mco laboris nisi ut Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem incid idunt ut labore</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem incid idunt ut labore et doloremgna aliqua. Ut enim ad minim ven iam quis nostrud xerci.</p>
-
-                            <div class="tag">
-                               <span>Tag:</span>
-                               <ul>
-                                <li><a href="#">Branding,</a></li>
-                                <li><a href="#">Design,</a></li>
-                                <li><a href="#">Graphic</a></li>
-                               </ul>
-                            </div>
+                            <p>Integrasi sistem di Arneva Teknologi Solusi bertujuan untuk menyatukan berbagai sistem dan aplikasi yang terpisah menjadi satu kesatuan yang terkoordinasi dan efisien. Dengan menghilangkan silo data dan meningkatkan visibilitas, kami membantu perusahaan bekerja lebih efisien dan responsif terhadap kebutuhan bisnis yang dinamis.</p>
+                            <p>Layanan kami dirancang untuk meningkatkan integritas data dan memaksimalkan operasional bisnis melalui solusi integrasi yang mulus.</p>
                         </div>
                         <div class="content-pra">
                             <div class="title">
-                                <h3>Learning Objectives</h3>
+                                <h3>Manfaat Utama</h3>
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem incid idunt ut labore et doloremgna aliqua. Ut enim ad minim ven iam quis nostrud xerci.</p>
+                            <p>Layanan integrasi sistem kami mencakup berbagai aspek penting yang memastikan keberhasilan proyek integrasi. Kami mencakup integrasi aplikasi, integrasi data, dan integrasi proses bisnis, semuanya dirancang untuk memenuhi kebutuhan unik setiap klien. Pendekatan kami memastikan bahwa setiap elemen sistem bekerja secara harmonis, meningkatkan kinerja keseluruhan perusahaan.</p>
                             <ul class="lists">
                                 <li>
                                     <div class="icon">
                                         <i class='bx bx-check'></i>
                                     </div>
-                                    <p>To promote an entrepreneurial spirit and to consider the option of setting up a company as an employment opportunity</p>
+                                    <p>Integrasi sistem yang baik memungkinkan aliran kerja yang lebih lancar dan efisien, sehingga mengurangi waktu yang dihabiskan untuk tugas-tugas manual</p>
                                 </li>
                                 <li>
                                     <div class="icon">
                                         <i class='bx bx-check'></i>
                                     </div>
-                                    <p>Development of entrepreneurial skills and use of tools that equip people to work in an entrepreneurial project</p>
+                                    <p>Dengan mengintegrasikan berbagai sistem, kami memastikan bahwa data tetap konsisten dan akurat di seluruh aplikasi</p>
                                 </li>
                                 <li>
                                     <div class="icon">
                                         <i class='bx bx-check'></i>
                                     </div>
-                                    <p>Essential knowledge for those interested in managing their own business</p>
+                                    <p>Proses integrasi mempercepat pengambilan keputusan dengan menyediakan akses cepat ke informasi yang relevan</p>
                                 </li>
                             </ul>
                         </div>
                         <div class="content-pra">
                             <div class="title">
-                                <h3>Material Includes</h3>
+                                <h3>Ruang Lingkup</h3>
                             </div>
+                            <p>Proses kerja kami dalam integrasi sistem melibatkan beberapa tahapan kritis untuk memastikan keberhasilan implementasi. Kami memulai dengan penilaian sistem yang ada, kemudian merancang arsitektur integrasi yang optimal, dan akhirnya mengimplementasikan solusi serta melakukan pengujian menyeluruh. Setiap langkah dirancang untuk memastikan bahwa integrasi berjalan lancar dan memberikan manfaat maksimal bagi klien.</p>
                             <ul class="lists">
                                 <li>
                                     <div class="icon">
                                         <i class='bx bx-check'></i>
                                     </div>
-                                    <p>Videos</p>
+                                    <p>Menghubungkan berbagai aplikasi bisnis untuk menciptakan aliran kerja yang mulus dan efisien</p>
                                 </li>
                                 <li>
                                     <div class="icon">
                                         <i class='bx bx-check'></i>
                                     </div>
-                                    <p>Booklets</p>
+                                    <p>Menyediakan solusi untuk sinkronisasi dan migrasi data antar sistem, memastikan data yang akurat dan konsisten</p>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <i class='bx bx-check'></i>
+                                    </div>
+                                    <p>Menyelaraskan proses bisnis untuk meningkatkan efisiensi dan produktivitas operasional</p>
                                 </li>
                             </ul>
                         </div>
                         <div class="content-pra">
                             <div class="title">
-                                <h3>Requirements</h3>
+                                <h3>Proses Kerja</h3>
                             </div>
+                            <p>Kami memiliki banyak contoh sukses dari proyek integrasi sistem yang telah kami selesaikan. Salah satu studi kasus yang menonjol adalah sebuah perusahaan e-commerce yang berhasil mengurangi waktu pemrosesan pesanan secara signifikan setelah menggunakan solusi integrasi kami. Pengalaman ini menunjukkan bagaimana layanan kami dapat memberikan dampak positif yang besar terhadap kinerja bisnis.</p>
                             <ul class="lists">
                                 <li>
                                     <div class="icon">
                                         <i class='bx bx-check'></i>
                                     </div>
-                                    <p>Passion for entrepreneurship</p>
+                                    <p>Menganalisis infrastruktur TI saat ini untuk mengidentifikasi area yang membutuhkan integrasi</p>
                                 </li>
                                 <li>
                                     <div class="icon">
                                         <i class='bx bx-check'></i>
                                     </div>
-                                    <p>Basic business concepts</p>
+                                    <p>Mengembangkan solusi teknis yang optimal untuk integrasi sistem berdasarkan analisis awal</p>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <i class='bx bx-check'></i>
+                                    </div>
+                                    <p>Mengimplementasikan solusi dan memastikan fungsionalitas yang sempurna melalui pengujian ekstensif sebelum sistem sepenuhnya dioperasikan</p>
                                 </li>
                             </ul>
                         </div>
                         <div class="content-pra">
                             <div class="title">
-                                <h3>Target Audience</h3>
+                                <h3>Studi Kasus / Testimonial</h3>
                             </div>
-                            <ul class="lists">
-                                <li>
-                                    <div class="icon">
-                                        <i class='bx bx-check'></i>
-                                    </div>
-                                    <p>Young Entrepreneurs</p>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <i class='bx bx-check'></i>
-                                    </div>
-                                    <p>Business Persons</p>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <i class='bx bx-check'></i>
-                                    </div>
-                                    <p>College Students</p>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <i class='bx bx-check'></i>
-                                    </div>
-                                    <p>Professionals</p>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <i class='bx bx-check'></i>
-                                    </div>
-                                    <p>Startups</p>
-                                </li>
-                            </ul>
+                            <p>Sebuah perusahaan e-commerce menghadapi tantangan dalam pemrosesan pesanan yang memakan waktu lama dan seringkali menyebabkan keterlambatan pengiriman. Setelah bekerja sama dengan Arneva Teknologi Solusi, kami berhasil mengintegrasikan sistem manajemen pesanan mereka dengan sistem inventaris dan pengiriman. Solusi ini tidak hanya mengurangi waktu pemrosesan pesanan dari beberapa jam menjadi beberapa menit, tetapi juga meningkatkan akurasi pengiriman dan kepuasan pelanggan secara signifikan. Perusahaan kini mampu memenuhi pesanan dengan lebih cepat dan efisien, memberikan keunggulan kompetitif di pasar yang sangat kompetitif.</p>
                         </div>
                     </div>
-                    <div class="instructor-card">
-                        <div class="title">
-                            <h3>Your Instructors</h3>
-                        </div>
-                        <div class="row align-items-center">
-                            <div class="col-lg-5 col-sm-6 col-md-5">
-                                <div class="image">
-                                    <img src="{{ asset('template/img/all-img/instructor.png') }}" alt="image">
-                                </div>
-                            </div>
-                            <div class="col-lg-7 col-sm-6 col-md-7">
-                                <div class="content">
-                                    <h3>Anthony Steven</h3>
-                                    <div class="review">
-                                        <div class="left">
-                                            <ul>
-                                                <li><i class='bx bxs-star' ></i></li>
-                                                <li><i class='bx bxs-star' ></i></li>
-                                                <li><i class='bx bxs-star' ></i></li>
-                                                <li><i class='bx bxs-star' ></i></li>
-                                                <li><i class='bx bxs-star' ></i></li>
-                                            </ul>
-                                        </div>
-                                        <div class="rights">
-                                            <p>Review 0/5</p>
-                                        </div>
-                                    </div>
-                                    <ul>
-                                        <li>
-                                            <div class="image-circle">
-                                                <img src="{{ asset('template/img/icon/icon-1.png') }}" alt="image">
-                                            </div>
-                                            <span>432</span>
-                                        </li>
-                                        <li>
-                                            <div class="image-circle">
-                                                <img src="{{ asset('template/img/icon/icon-2.png') }}" alt="image">
-                                            </div>
-                                            <span>1.2k</span>
-                                        </li>
-                                        <li>
-                                            <div class="image-circle">
-                                                <img src="{{ asset('template/img/icon/icon-3.png') }}" alt="image">
-                                            </div>
-                                            <span>5.0</span>
-                                        </li>
-                                    </ul>
-                                    <a href="#">See more</a>
-                                </div>
 
-                            </div>
-                        </div>
-
-                    </div>
+                    <p class="mt-3">Dengan layanan integrasi sistem kami, Arneva Teknologi Solusi siap membantu perusahaan Anda untuk menyatukan berbagai sistem dan aplikasi menjadi satu kesatuan yang terkoordinasi dan efisien. Kami berkomitmen untuk memberikan solusi yang tidak hanya efektif tetapi juga dapat diandalkan dalam jangka panjang, memastikan bahwa perusahaan Anda dapat beroperasi dengan optimal dan responsif terhadap perubahan kebutuhan bisnis.</p>
                 </div>
             </div>
             <div class="col-lg-4">
