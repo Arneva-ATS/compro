@@ -99,7 +99,7 @@
                             <div class="item">
                                 <div class="item-content">
                                     <div class="icon">
-                                        <img src="template/img/icon/features-icon-2.png" alt="image">
+                                        <i class="fas fa-glasses"></i>
                                     </div>
                                     <h3>Konsultasi Ahli
                                     </h3>
@@ -112,7 +112,7 @@
                             <div class="item">
                                 <div class="item-content">
                                     <div class="icon">
-                                        <img src="template/img/icon/features-icon-1.png" alt="image">
+                                        <i class="fas fa-lightbulb"></i>
                                     </div>
                                     <h3>Solusi Inovatif </h3>
                                     <p>Kami memanfaatkan teknologi mutakhir dan pendekatan inovatif untuk memberikan solusi
@@ -123,7 +123,7 @@
                             <div class="item">
                                 <div class="item-content">
                                     <div class="icon">
-                                        <img src="template/img/icon/faculty-icon-2.png" alt="image">
+                                        <i class="fas fa-chess-knight"></i>
                                     </div>
                                     <h3>Pendekatan Berorientasi Klien </h3>
                                     <p>Fokus kami adalah memahami kebutuhan dan tantangan unik Anda. Kami bekerja sama
@@ -134,7 +134,7 @@
                             <div class="item">
                                 <div class="item-content">
                                     <div class="icon">
-                                        <img src="template/img/icon/active.png" alt="image">
+                                        <i class="fas fa-headphones"></i>
                                     </div>
                                     <h3>Dukungan 24/7 </h3>
                                     <p>Kami menyediakan dukungan sepanjang waktu untuk memastikan sistem Anda selalu
@@ -224,13 +224,13 @@
     <!-- End Features Area 2 -->
 
     <!-- Start Video Area  -->
-    <div class="video-area">
+    {{-- <div class="video-area">
         <div class="container">
             <div class="video-play-btn" data-aos="fade-zoom-in" data-aos-delay="100">
                 <a class="popup-youtube" href="https://www.youtube.com/watch?v=B03IqRlOhG0">Play</a>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- End Video Area  -->
 
     <!-- Start Faculty Area 2 -->

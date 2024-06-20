@@ -2206,9 +2206,11 @@ Features Area CSS
   background-color: var(--whiteColor);
   border-radius: 30px;
 }
-.features-content .content .item .item-content .icon img, .features-content-2 .content .item .item-content .icon img  {
+.features-content .content .item .item-content .icon i, .features-content-2 .content .item .item-content .icon i  {
   content: '';
   position: absolute;
+  font-size: 1.5rem;
+  color: #f17a3d;
   left: 18px;
   top: 16px;
 }
