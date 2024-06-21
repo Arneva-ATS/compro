@@ -1602,6 +1602,9 @@ Academics Section Area CSS
 .academics-section .ac-overview .pera-dec p{
   margin-bottom: 30px;
 }
+.academics-section .ac-overview .pera-dec ul li{
+    margin-bottom: 30px;
+  }
 .academics-section .ac-overview .pera-dec p:last-child{
   margin-bottom: 0px;
 }
@@ -1856,6 +1859,9 @@ Academics Section Area CSS
   font-weight: 500;
 }
 
+.partner-area{
+    background-color: #ffffff;
+}
 .slider {
     width: 100%;
     overflow: hidden;
@@ -1887,13 +1893,13 @@ Academics Section Area CSS
       transform: translateX(0);
     }
     100% {
-      transform: translateX(calc(-250px * 7)); /* 250px is the width of the slide and 7 is the number of slides to scroll */
+      transform: translateX(calc(-250px * 7));
     }
   }
 
   @keyframes scroll-right {
     0% {
-      transform: translateX(calc(-250px * 7)); /* 250px is the width of the slide and 7 is the number of slides to scroll */
+      transform: translateX(calc(-250px * 7));
     }
     100% {
       transform: translateX(0);
@@ -4701,7 +4707,7 @@ Section Banner Area CSS
 }
 
 .section-banner.bg-22{
-  background-image: url(../img/banner/section-image-22.png);
+  background-image: url(../img/proyek/cms-web.jpg);
 }
 
 
@@ -4802,37 +4808,7 @@ Subscribe Area CSS
 Footer Area CSS
 =================================================*/
 
-.partner-area{
-    background-color: #e2faee;
-    padding: 6em;
-    display: flex;
 
-}
-#row-1 {
-    animation: moveLeft 10s linear infinite;
-}
-
-#row-2 {
-    animation: moveRight 10s linear infinite;
-}
-
-@keyframes moveLeft {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(-100%);
-    }
-}
-
-@keyframes moveRight {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(100%);
-    }
-}
 .footer-area{
   background-image: url(../img/all-img/shape-2.png);
   background-size: cover;

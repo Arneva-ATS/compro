@@ -305,7 +305,7 @@
     <!-- End Campus Area -->
 
     <!-- Start Success Area -->
-            <div class="success-area pb-100">
+            {{-- <div class="success-area pb-100">
                 <div class="container">
                     <div class="section-title pb-5" data-aos="fade-up" data-aos-delay="100">
                         <div class="sub-title">
@@ -361,7 +361,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
             <!-- End Success Area -->
 
 

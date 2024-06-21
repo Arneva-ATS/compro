@@ -52,7 +52,12 @@ Route::prefix('proyek-studi-kasus')->name('proyek-studi-kasus.')->group(function
     Route::get('proyek-terkini', function () {
         return view('pages.proyek-studi-kasus.proyek-terkini');
     })->name('proyek-terkini');
-
+    Route::get('pet-clinic', function () {
+        return view('pages.proyek-studi-kasus.pet-clinic');
+    })->name('pet-clinic');
+    Route::get('cms-web', function () {
+        return view('pages.proyek-studi-kasus.cms-web');
+    })->name('cms-web');
 });
 Route::prefix('solusi-bisnis')->name('solusi-bisnis.')->group(function () {
     Route::get('koperasi-digital', function () {
