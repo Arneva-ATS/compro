@@ -72,10 +72,12 @@ Route::prefix('solusi-bisnis')->name('solusi-bisnis.')->group(function () {
     })->name('manajemen-gedung');
 });
 
-
+Route::get('/karir', function () {
+    return view('pages.karir.index');
+})->name('karir');
 
 Route::get('/produk', function () {
-    return view('pages.produk');
+    return view('pages.karir.index');
 })->name('produk');
 
 Route::get('/blog', function () {

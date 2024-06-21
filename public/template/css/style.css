@@ -4562,6 +4562,9 @@ Section Banner Area CSS
   background-color: var(--mainColor);
   max-width: 628px;
 }
+.section-banner .karir{
+  max-width: 1295px;
+}
 .section-banner .section-info h2{
   color: var(--whiteColor);
   font-family: 'Lexend', sans-serif;
