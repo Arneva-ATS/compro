@@ -1856,7 +1856,49 @@ Academics Section Area CSS
   font-weight: 500;
 }
 
+.slider {
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+  }
 
+  .slide-track {
+    display: flex;
+  }
+
+  .slide-track.left {
+    animation: scroll-left 20s linear infinite;
+  }
+
+  .slide-track.right {
+    animation: scroll-right 20s linear infinite;
+  }
+
+  .slide {
+    display: inline-block;
+    width: 250px;
+    margin-right: 10px;
+  }
+
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-250px * 7)); /* 250px is the width of the slide and 7 is the number of slides to scroll */
+    }
+  }
+
+  @keyframes scroll-right {
+    0% {
+      transform: translateX(calc(-250px * 7)); /* 250px is the width of the slide and 7 is the number of slides to scroll */
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
 .pera-dec .apply-program .tuition-fees h5{
   font-size: 20px;
   font-weight: 700;
