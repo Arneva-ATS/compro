@@ -48,7 +48,12 @@ Route::prefix('layanan')->name('layanan.')->group(function () {
         return view('pages.layanan.dukungan-it');
     })->name('dukungan-it');
 });
+Route::prefix('proyek-studi-kasus')->name('proyek-studi-kasus.')->group(function () {
+    Route::get('proyek-terkini', function () {
+        return view('pages.proyek-studi-kasus.proyek-terkini');
+    })->name('proyek-terkini');
 
+});
 Route::prefix('solusi-bisnis')->name('solusi-bisnis.')->group(function () {
     Route::get('koperasi-digital', function () {
         return view('pages.solusi-bisnis.koperasi-digital');
@@ -66,6 +71,8 @@ Route::prefix('solusi-bisnis')->name('solusi-bisnis.')->group(function () {
         return view('pages.solusi-bisnis.manajemen-gedung');
     })->name('manajemen-gedung');
 });
+
+
 
 Route::get('/produk', function () {
     return view('pages.produk');
