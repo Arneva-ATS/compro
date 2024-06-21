@@ -58,7 +58,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a href="#!" class="nav-link">
+                        <a href="{{ route('karir') }}" class="nav-link {{ request()->routeIs('karir') ? 'active' : '' }}">
                             Karir
                         </a>
                     </li>
@@ -133,66 +133,71 @@
 <!-- Start Responsive Navbar Area -->
 <div class="responsive-navbar offcanvas offcanvas-end" data-bs-backdrop="static" tabindex="-1" id="navbarOffcanvas">
     <div class="offcanvas-header">
-        <a href="index.html" class="logo d-inline-block">
-            <img class="logo-light" src="template/img/logo/logo_ats-07.png" alt="logo">
+        <a href="{{ route('home') }}" class="logo d-inline-block">
+            <img class="logo-light" src="{{ asset('template/img/logo/logo_ats-07.png') }}" alt="logo">
         </a>
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
     <div class="offcanvas-body">
         <div class="accordion" id="navbarAccordion">
             <div class="accordion-item">
-                <a class="accordion-link without-icon" href="contact-us.html">
+                <a class="accordion-link without-icon {{ request()->routeIs('home') ? 'active' : '' }}" href="{{ route('home') }}">
                     Beranda
                 </a>
             </div>
             <div class="accordion-item">
-                <button class="accordion-button collapsed active" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                <button class="accordion-button collapsed {{ request()->routeIs(['tentang-kami.visi-misi', 'tentang-kami.nilai-nilai-perusahaan']) ? 'active' : '' }}" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#tentang-kami" aria-expanded="false" aria-controls="tentang-kami">
                     Tentang Kami
                 </button>
-                <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#navbarAccordion">
+                <div id="tentang-kami" class="accordion-collapse collapse" data-bs-parent="#navbarAccordion">
                     <div class="accordion-body">
                         <div class="accordion" id="navbarAccordion7">
                             <div class="accordion-item">
-                                <a href="index.html" class="accordion-link">
+                                <a href="{{ route('tentang-kami.visi-misi') }}" class="accordion-link {{ request()->routeIs('tentang-kami.visi-misi') ? 'active' : '' }}">
                                     Visi & Misi
                                 </a>
                             </div>
+                            <div class="accordion-item">
+                                <a href="{{ route('tentang-kami.nilai-nilai-perusahaan') }}" class="accordion-link {{ request()->routeIs('tentang-kami.nilai-nilai-perusahaan') ? 'active' : '' }}">
+                                    Nilai-Nilai Perusahaan
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="accordion-item">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Produk
+                <button class="accordion-button collapsed {{ request()->routeIs(['layanan.konsultasi-it', 'layanan.integrasi-sistem', 'layanan.pengembangan-perangkat-lunak', 'layanan.keamanan-siber', 'layanan.dukungan-it']) ? 'active' : '' }}" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#layanan" aria-expanded="false" aria-controls="layanan">
+                    Layanan
                 </button>
-                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#navbarAccordion">
+                <div id="layanan" class="accordion-collapse collapse" data-bs-parent="#navbarAccordion">
                     <div class="accordion-body">
                         <div class="accordion" id="navbarAccordion30">
                             <div class="accordion-item">
-                                <a href="academics.html" class="accordion-link">
-                                    Academics
+                                <a href="{{ route('layanan.konsultasi-it') }}" class="accordion-link {{ request()->routeIs('layanan.konsultasi-it') ? 'active' : '' }}">
+                                    Konsultasi TI
                                 </a>
                             </div>
                             <div class="accordion-item">
-                                <a href="undergraduate.html" class="accordion-link">
-                                    Undergraduate
+                                <a href="{{ route('layanan.integrasi-sistem') }}" class="accordion-link {{ request()->routeIs('layanan.integrasi-sistem') ? 'active' : '' }}">
+                                    Integrasi Sistem
                                 </a>
                             </div>
                             <div class="accordion-item">
-                                <a href="graduate.html" class="accordion-link">
-                                    Graduate
+                                <a href="{{ route('layanan.pengembangan-perangkat-lunak') }}" class="accordion-link {{ request()->routeIs('layanan.pengembangan-perangkat-lunak') ? 'active' : '' }}">
+                                    Pengembangan Perangkat Lunak
                                 </a>
                             </div>
                             <div class="accordion-item">
-                                <a href="online-education.html" class="accordion-link">
-                                    Online Education
+                                <a href="{{ route('layanan.keamanan-siber') }}" class="accordion-link {{ request()->routeIs('layanan.keamanan-siber') ? 'active' : '' }}">
+                                    Keamanan Siber
                                 </a>
                             </div>
                             <div class="accordion-item">
-                                <a href="faculty.html" class="accordion-link">
-                                    Faculty
+                                <a href="{{ route('layanan.dukungan-it') }}" class="accordion-link {{ request()->routeIs('layanan.dukungan-it') ? 'active' : '' }}">
+                                    Dukungan TI
                                 </a>
                             </div>
                         </div>
@@ -200,9 +205,95 @@
                 </div>
             </div>
             <div class="accordion-item">
-                <a class="accordion-link without-icon" href="contact-us.html">
-                    Blog
+                <button class="accordion-button collapsed {{ request()->routeIs(['solusi-bisnis.koperasi-digital', 'solusi-bisnis.rumah-sakit-digital', 'solusi-bisnis.manajemen-rantai-pemasok', 'solusi-bisnis.manajemen-gedung']) ? 'active' : '' }}" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#solusi-bisnis" aria-expanded="false" aria-controls="solusi-bisnis">
+                    Solusi Bisnis
+                </button>
+                <div id="solusi-bisnis" class="accordion-collapse collapse" data-bs-parent="#navbarAccordion">
+                    <div class="accordion-body">
+                        <div class="accordion" id="navbarAccordion30">
+                            <div class="accordion-item">
+                                <a href="{{ route('solusi-bisnis.koperasi-digital') }}" class="accordion-link {{ request()->routeIs('solusi-bisnis.koperasi-digital') ? 'active' : '' }}">
+                                    Koperasi Digital
+                                </a>
+                            </div>
+                            <div class="accordion-item">
+                                <a href="{{ route('solusi-bisnis.rumah-sakit-digital') }}" class="accordion-link {{ request()->routeIs('solusi-bisnis.rumah-sakit-digital') ? 'active' : '' }}">
+                                    Rumah Sakit Digital
+                                </a>
+                            </div>
+                            <div class="accordion-item">
+                                <a href="{{ route('solusi-bisnis.manajemen-rantai-pemasok') }}" class="accordion-link {{ request()->routeIs('solusi-bisnis.manajemen-rantai-pemasok') ? 'active' : '' }}">
+                                    Manajemen Rantai Pemasok
+                                </a>
+                            </div>
+                            <div class="accordion-item">
+                                <a href="{{ route('solusi-bisnis.manajemen-gedung') }}" class="accordion-link {{ request()->routeIs('solusi-bisnis.manajemen-gedung') ? 'active' : '' }}">
+                                    Manajemen Gedung
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <a class="accordion-link without-icon {{ request()->routeIs('karir') ? 'active' : '' }}" href="{{ route('karir') }}">
+                    Karir
                 </a>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
+                    data-bs-target="#proyek&case" aria-expanded="false" aria-controls="proyek&case">
+                    Proyek dan Studi Kasus
+                </button>
+                <div id="proyek&case" class="accordion-collapse collapse" data-bs-parent="#navbarAccordion">
+                    <div class="accordion-body">
+                        <div class="accordion" id="navbarAccordion30">
+                            <div class="accordion-item">
+                                <a href="#!" class="accordion-link">
+                                    Proyek Terkini
+                                </a>
+                            </div>
+                            <div class="accordion-item">
+                                <a href="#!" class="accordion-link">
+                                    Studi Kasus
+                                </a>
+                            </div>
+                            <div class="accordion-item">
+                                <a href="#!" class="accordion-link">
+                                    Testimoni Klien
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
+                    data-bs-target="#blog" aria-expanded="false" aria-controls="blog">
+                    Blog
+                </button>
+                <div id="blog" class="accordion-collapse collapse" data-bs-parent="#navbarAccordion">
+                    <div class="accordion-body">
+                        <div class="accordion" id="navbarAccordion30">
+                            <div class="accordion-item">
+                                <a href="#!" class="accordion-link">
+                                    Artikel Teknologi
+                                </a>
+                            </div>
+                            <div class="accordion-item">
+                                <a href="#!" class="accordion-link">
+                                    Berita dan Pembaruan
+                                </a>
+                            </div>
+                            <div class="accordion-item">
+                                <a href="#!" class="accordion-link">
+                                    Tips & Trik
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             {{-- <div class="accordion-item">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
