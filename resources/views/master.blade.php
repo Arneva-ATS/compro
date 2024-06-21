@@ -15,10 +15,49 @@
         <link rel="stylesheet" href="{{ asset('template/css/style.css') }}">
         <link rel="stylesheet" href="{{ asset('template/css/header.css') }}">
         <link rel="stylesheet" href="{{ asset('template/css/responsive.css') }}">
+        <link rel="stylesheet" href="{{ asset('template/css/responsive.css') }}">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
         <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap4.min.css">
-
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.min.css">
         <style>
+            .carousel {
+                width: 100%;
+                margin-bottom: 0;
+            }
+            .flickity-viewport {
+                height: 120px !important;
+                padding: 10px;
+            }
+            .carousel-cell {
+                width: 250px;
+                height: 100px;
+                margin-right: 10px;
+                background: #FFF;
+                border-radius: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+                font-size: 18px;
+                text-align: center;
+                transition: transform 0.5s ease-in-out;
+                color: #333;
+            }
+            .carousel-cell img {
+                max-width: 3em;
+                max-height: 3em;
+                margin-bottom: 10px;
+            }
+            .carousel-cell h3 {
+                font-size: 16px;
+                margin: 0;
+                font-weight: 700;
+            }
+            .carousel-cell p {
+                font-size: 12px;
+                color: #666;
+                margin: 0;
+            }
             .table.dataTable {
                 width: 100%;
                 margin: 0 auto;
@@ -121,6 +160,8 @@
         <script src="{{ asset('template/js/main.js') }}"></script>
         <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
         <script src="https://cdn.datatables.net/1.11.5/js/dataTables.bootstrap4.min.js"></script>
+        {{-- <link rel="stylesheet" href="{{ asset('template/js/flickity/flickity.pkgd.min.js') }}"> --}}
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.pkgd.min.js"></script>
         <script>
             $(document).ready(function() {
                 $('#table-karir').DataTable({
@@ -130,8 +171,63 @@
                     "searching": false,
                     "order": [[0, 'asc']]
                 });
-            });
+                // Initialize Flickity for both carousels
+                var flkty1 = new Flickity('#carousel1', {
+                    autoPlay: 2000,
+                    wrapAround: true,
+                    prevNextButtons: false,
+                    pageDots: false,
+                    pauseAutoPlayOnHover: false,
+                    selectedAttraction: 0.01,
+                    friction: 0.15,
+                    draggable: false
+                });
 
+                var flkty2 = new Flickity('#carousel2', {
+                    autoPlay: 2000,
+                    wrapAround: true,
+                    prevNextButtons: false,
+                    pageDots: false,
+                    rightToLeft: true,
+                    pauseAutoPlayOnHover: false,
+                    selectedAttraction: 0.01,
+                    friction: 0.15,
+                    draggable: false
+                });
+
+                // Function to keep playing the carousel on hover and click
+                function keepPlaying(flkty) {
+                    flkty.playPlayer();
+                }
+
+                 // Add custom event listeners to prevent pausing on hover and click
+                document.getElementById('carousel1').addEventListener('mouseenter', function() {
+                    keepPlaying(flkty1);
+                });
+
+                document.getElementById('carousel1').addEventListener('click', function() {
+                    keepPlaying(flkty1);
+                });
+
+                document.getElementById('carousel2').addEventListener('mouseenter', function() {
+                    keepPlaying(flkty2);
+                });
+
+                document.getElementById('carousel2').addEventListener('click', function() {
+                    keepPlaying(flkty2);
+                });
+
+                // var flkty = new Flickity( '.main-carousel', {
+                //     // options
+                //     cellAlign: 'left',
+                //     contain: true
+                // });
+                // $('.main-carousel').flickity({
+                //     // options
+                //     cellAlign: 'left',
+                //     contain: true
+                // });
+            });
         </script>
 
     </body>
