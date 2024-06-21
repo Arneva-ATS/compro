@@ -1,151 +1,185 @@
-<div class="partner-area">
-    <div class="d-flex flex-row justify-content-center my-5">
-        <h2 class="mt-5">Partner Kami</h2>
+<div class="ptb-70">
+    <div class="container">
+        <div class="d-flex flex-row justify-content-center">
+            <h1>Partner Kami</h1>
+        </div>
     </div>
-    <div class="slider">
-        <div class="slide-track left">
-            <div class="slide">
-                <div class="card flex-shrink-0 m-5 p-5 items-center justify-center"><img
-                        style="max-width: 8em; max-height:8em;" src="{{ asset('template/img/logo/inkowapilogo.png') }}"
-                        alt="logo inkowapi" /></div>
+    <!-- Carousel Row 1 -->
+    <div class="carousel py-3" id="carousel1">
+        <div class="carousel-cell d-flex align-items-center gap-3">
+            <div class="flex-grow">
+                <img src="{{ asset('template/img/logo/kopenas.png') }}" alt="logo kopenas" />
             </div>
-            <div class="slide">
-                <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;"
-                        src="{{ asset('template/img/logo/kopenas.png') }}" alt="logo kopenas" /></div>
-            </div>
-            <div class="slide">
-                <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;"
-                        src="{{ asset('template/img/logo/inkoptan.jpeg') }}" alt="logo inkopawi" /></div>
-            </div>
-            <div class="slide">
-                <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;"
-                        src="{{ asset('template/img/logo/inkopal.png') }}" alt="logo inkopawi" /></div>
-            </div>
-            <div class="slide">
-                <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;"
-                        src="{{ asset('template/img/logo/dekopin.png') }}" alt="logo inkopawi" /></div>
-            </div>
-            <div class="slide">
-                <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;"
-                        src="{{ asset('template/img/logo/inkopal.png') }}" alt="logo inkopawi" /></div>
-            </div>
-            <div class="slide">
-                <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;"
-                        src="{{ asset('template/img/logo/inkopal.png') }}" alt="logo inkopawi" /></div>
-            </div>
-            <div class="slide">
-                <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;"
-                        src="{{ asset('template/img/logo/inkopal.png') }}" alt="logo inkopawi" /></div>
-            </div>
-            <div class="slide">
-                <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;"
-                        src="{{ asset('template/img/logo/inkopal.png') }}" alt="logo inkopawi" /></div>
-            </div>
-            <div class="slide">
-                <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;"
-                        src="{{ asset('template/img/logo/inkopal.png') }}" alt="logo inkopawi" /></div>
-            </div>
-            <div class="slide">
-                <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;"
-                        src="{{ asset('template/img/logo/inkopal.png') }}" alt="logo inkopawi" /></div>
-            </div>
-            <div class="slide">
-                <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;"
-                        src="{{ asset('template/img/logo/inkopal.png') }}" alt="logo inkopawi" /></div>
-            </div>
-            <div class="slide">
-                <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;"
-                        src="{{ asset('template/img/logo/inkopal.png') }}" alt="logo inkopawi" /></div>
-            </div>
-            <div class="slide">
-                <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;"
-                        src="{{ asset('template/img/logo/inkopal.png') }}" alt="logo inkopawi" /></div>
+            <div class="flex-1 text-start">
+                <h3 class="text-capitalize">kopenas</h3>
+                <p>Koperasi</p>
             </div>
         </div>
-        <div class="slide-track right">
-            <div class="slide">
-                <div class="card flex-shrink-0 m-5 p-5 items-center justify-center"><img
-                        style="max-width: 8em; max-height:8em;" src="{{ asset('template/img/logo/inkoppol.jpg') }}"
-                        alt="logo inkowapi" /></div>
+        <div class="carousel-cell d-flex align-items-center gap-3">
+            <div class="flex-grow">
+                <img src="{{ asset('template/img/logo/inkoptan.jpeg') }}" alt="logo inkopawi" />
             </div>
-            <div class="slide">
-                <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;"
-                        src="{{ asset('template/img/logo/inkopdit.png') }}" alt="logo kopenas" /></div>
+            <div class="flex-1 text-start">
+                <h3 class="text-capitalize">inkoptan</h3>
+                <p>Koperasi</p>
             </div>
-            <div class="slide">
-                <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;"
-                        src="{{ asset('template/img/logo/kopindo.jpg') }}" alt="logo inkopawi" /></div>
+        </div>
+        <div class="carousel-cell d-flex align-items-center gap-3">
+            <div class="flex-grow">
+                <img src="{{ asset('template/img/logo/inkopal.png') }}" alt="logo inkopawi" />
             </div>
-            <div class="slide">
-                <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;"
-                        src="{{ asset('template/img/logo/inkopontren.jpg') }}" alt="logo inkopawi" /></div>
+            <div class="flex-1 text-start">
+                <h3 class="text-capitalize">inkopal</h3>
+                <p>Koperasi</p>
             </div>
-            <div class="slide">
-                <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;"
-                        src="{{ asset('template/img/logo/inkoveri.png') }}" alt="logo inkopawi" /></div>
+        </div>
+        <div class="carousel-cell d-flex align-items-center gap-3">
+            <div class="flex-grow">
+                <img src="{{ asset('template/img/logo/dekopin.png') }}" alt="logo inkopawi" />
             </div>
-            <div class="slide">
-                <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;"
-                        src="{{ asset('template/img/logo/inkopal.png') }}" alt="logo inkopawi" /></div>
+            <div class="flex-1 text-start">
+                <h3 class="text-capitalize">dekopin</h3>
+                <p>Koperasi</p>
             </div>
-            <div class="slide">
-                <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;"
-                        src="{{ asset('template/img/logo/inkopal.png') }}" alt="logo inkopawi" /></div>
+        </div>
+        <div class="carousel-cell d-flex align-items-center gap-3">
+            <div class="flex-grow">
+                <img src="{{ asset('template/img/logo/inkopal.png') }}" alt="logo inkopawi" />
             </div>
-            <div class="slide">
-                <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;"
-                        src="{{ asset('template/img/logo/inkopal.png') }}" alt="logo inkopawi" /></div>
+            <div class="flex-1 text-start">
+                <h3 class="text-capitalize">inkopal</h3>
+                <p>Koperasi</p>
             </div>
-            <div class="slide">
-                <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;"
-                        src="{{ asset('template/img/logo/inkopal.png') }}" alt="logo inkopawi" /></div>
+        </div>
+        <div class="carousel-cell d-flex align-items-center gap-3">
+            <div class="flex-grow">
+                <img src="{{ asset('template/img/logo/inkopal.png') }}" alt="logo inkopawi" />
             </div>
-            <div class="slide">
-                <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;"
-                        src="{{ asset('template/img/logo/inkopal.png') }}" alt="logo inkopawi" /></div>
+            <div class="flex-1 text-start">
+                <h3 class="text-capitalize">inkopal</h3>
+                <p>Koperasi</p>
             </div>
-            <div class="slide">
-                <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;"
-                        src="{{ asset('template/img/logo/inkopal.png') }}" alt="logo inkopawi" /></div>
+        </div>
+        <div class="carousel-cell d-flex align-items-center gap-3">
+            <div class="flex-grow">
+                <img src="{{ asset('template/img/logo/inkopal.png') }}" alt="logo inkopawi" />
             </div>
-            <div class="slide">
-                <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;"
-                        src="{{ asset('template/img/logo/inkopal.png') }}" alt="logo inkopawi" /></div>
+            <div class="flex-1 text-start">
+                <h3 class="text-capitalize">inkopal</h3>
+                <p>Koperasi</p>
             </div>
-            <div class="slide">
-                <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;"
-                        src="{{ asset('template/img/logo/inkopal.png') }}" alt="logo inkopawi" /></div>
+        </div>
+        <div class="carousel-cell d-flex align-items-center gap-3">
+            <div class="flex-grow">
+                <img src="{{ asset('template/img/logo/inkopal.png') }}" alt="logo inkopawi" />
             </div>
-            <div class="slide">
-                <div class="card flex-shrink-0 m-5 p-5"><img style="max-width: 8em; max-height:8em;"
-                        src="{{ asset('template/img/logo/inkopal.png') }}" alt="logo inkopawi" /></div>
+            <div class="flex-1 text-start">
+                <h3 class="text-capitalize">inkopal</h3>
+                <p>Koperasi</p>
+            </div>
+        </div>
+        <div class="carousel-cell d-flex align-items-center gap-3">
+            <div class="flex-grow">
+                <img src="{{ asset('template/img/logo/inkopal.png') }}" alt="logo inkopawi" />
+            </div>
+            <div class="flex-1 text-start">
+                <h3 class="text-capitalize">inkopal</h3>
+                <p>Koperasi</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Carousel Row 2 -->
+    <div class="carousel py-3" id="carousel2">
+        <div class="carousel-cell d-flex align-items-center gap-3">
+            <div class="flex-grow">
+                <img src="{{ asset('template/img/logo/inkopdit.png') }}" alt="logo kopenas" />
+            </div>
+            <div class="flex-1 text-start">
+                <h3 class="text-capitalize">inkopdit</h3>
+                <p>Koperasi</p>
+            </div>
+        </div>
+        <div class="carousel-cell d-flex align-items-center gap-3">
+            <div class="flex-grow">
+                <img src="{{ asset('template/img/logo/kopindo.jpg') }}" alt="logo inkopawi" />
+            </div>
+            <div class="flex-1 text-start">
+                <h3 class="text-capitalize">kopindo</h3>
+                <p>Koperasi</p>
+            </div>
+        </div>
+        <div class="carousel-cell d-flex align-items-center gap-3">
+            <div class="flex-grow">
+                <img src="{{ asset('template/img/logo/inkopontren.jpg') }}" alt="logo inkopawi" />
+            </div>
+            <div class="flex-1 text-start">
+                <h3 class="text-capitalize">inkopontren</h3>
+                <p>Koperasi</p>
+            </div>
+        </div>
+        <div class="carousel-cell d-flex align-items-center gap-3">
+            <div class="flex-grow">
+                <img src="{{ asset('template/img/logo/inkoveri.png') }}" alt="logo inkopawi" />
+            </div>
+            <div class="flex-1 text-start">
+                <h3 class="text-capitalize">inkoveri</h3>
+                <p>Koperasi</p>
+            </div>
+        </div>
+        <div class="carousel-cell d-flex align-items-center gap-3">
+            <div class="flex-grow">
+                <img src="{{ asset('template/img/logo/inkopal.png') }}" alt="logo inkopawi" />
+            </div>
+            <div class="flex-1 text-start">
+                <h3 class="text-capitalize">inkopal</h3>
+                <p>Koperasi</p>
+            </div>
+        </div>
+        <div class="carousel-cell d-flex align-items-center gap-3">
+            <div class="flex-grow">
+                <img src="{{ asset('template/img/logo/inkopal.png') }}" alt="logo inkopawi" />
+            </div>
+            <div class="flex-1 text-start">
+                <h3 class="text-capitalize">inkopal</h3>
+                <p>Koperasi</p>
+            </div>
+        </div>
+        <div class="carousel-cell d-flex align-items-center gap-3">
+            <div class="flex-grow">
+                <img src="{{ asset('template/img/logo/inkopal.png') }}" alt="logo inkopawi" />
+            </div>
+            <div class="flex-1 text-start">
+                <h3 class="text-capitalize">inkopal</h3>
+                <p>Koperasi</p>
+            </div>
+        </div>
+        <div class="carousel-cell d-flex align-items-center gap-3">
+            <div class="flex-grow">
+                <img src="{{ asset('template/img/logo/inkopal.png') }}" alt="logo inkopawi" />
+            </div>
+            <div class="flex-1 text-start">
+                <h3 class="text-capitalize">inkopal</h3>
+                <p>Koperasi</p>
+            </div>
+        </div>
+        <div class="carousel-cell d-flex align-items-center gap-3">
+            <div class="flex-grow">
+                <img src="{{ asset('template/img/logo/inkopal.png') }}" alt="logo inkopawi" />
+            </div>
+            <div class="flex-1 text-start">
+                <h3 class="text-capitalize">inkopal</h3>
+                <p>Koperasi</p>
             </div>
         </div>
     </div>
 </div>
 
-
+<!-- End Partner Area -->
 <div class="footer-area">
     <div class="footer-widget-info ptb-100">
         <div class="container">
             <div class="row">
-                <div class="col-lg-2 col-sm-6 col-md-6">
-                    <div class="footer-widget">
-                        <h4>Perusahaan</h4>
-                        <ul>
-                            <li><a href="#"><i class='bx bx-chevron-right'></i>Profil Perusahaan</a></li>
-                            <li><a href="#"><i class='bx bx-chevron-right'></i>Visi & Misi</a>
-                            </li>
-                            <li><a href="#"><i class='bx bx-chevron-right'></i> Direksi</a></li>
-                            <li><a href="#"><i class='bx bx-chevron-right'></i>Tim</a></li>
-                            <li><a href="#"><i class='bx bx-chevron-right'></i> Proyek</a></li>
-                            <li><a href="#"><i class='bx bx-chevron-right'></i>Studi Kasus</a>
-                            </li>
-                            <li><a href="#"><i class='bx bx-chevron-right'></i>Testimoni
-                                    Klien</a></li>
-                        </ul>
-                    </div>
-                </div>
                 <div class="col-lg-2 col-sm-6 col-md-6">
                     <div class="footer-widget">
                         <h4>Mitra</h4>
@@ -193,9 +227,9 @@
                                 </a></li>
                             <li><a href="#"><i class='bx bx-chevron-right'></i>Artikel Teknologi
                                 </a></li>
-                                <li><a href="#"><i class='bx bx-chevron-right'></i>Berita dan Pembaruan
+                            <li><a href="#"><i class='bx bx-chevron-right'></i>Berita dan Pembaruan
                                 </a></li>
-                                <li><a href="#"><i class='bx bx-chevron-right'></i>Tips & Trik
+                            <li><a href="#"><i class='bx bx-chevron-right'></i>Tips & Trik
                                 </a></li>
                         </ul>
                     </div>
@@ -211,10 +245,10 @@
                                 </a></li>
                             <li><a href="#"><i class='bx bx-chevron-right'></i>Formulir Pertanyaan
                                 </a></li>
-                                <li><a href="#"><i class='bx bx-chevron-right'></i> Teknis
+                            <li><a href="#"><i class='bx bx-chevron-right'></i> Teknis
 
                                 </a></li>
-                                <li><a href="#student-activities.html"><i class='bx bx-chevron-right'></i>Tips & Trik
+                            <li><a href="#student-activities.html"><i class='bx bx-chevron-right'></i>Tips & Trik
                                 </a></li>
                         </ul>
                     </div>
