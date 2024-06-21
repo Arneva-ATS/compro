@@ -67,9 +67,9 @@
                             Proyek dan Studi Kasus
                         </a>
                         <ul class="dropdown-menu">
-                            <li class="nav-item"><a href="#!" class="nav-link">Proyek Terkini</a></li>
+                            <li class="nav-item"><a href="{{ route('proyek-studi-kasus.proyek-terkini') }}" class="nav-link {{ request()->routeIs('proyek-studi-kasus.proyek-terkini') ? 'active' : '' }}">Proyek Terkini</a></li>
                             <li class="nav-item"><a href="#!" class="nav-link">Studi Kasus</a></li>
-                            <li class="nav-item"><a href="#!" class="nav-link">Testimoni Klien</a></li>                            </li>
+                            <li class="nav-item"><a href="#!" class="nav-link">Testimoni Klien</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">

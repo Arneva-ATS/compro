@@ -102,7 +102,7 @@
                     <ul>
                         <li><i class='bx bxs-phone-call'></i>  <a href="tel:+8495160885">(+62) 877-8003-0151</a></li>
                         <li><i class='bx bxs-map'></i>Graha Kas LT. 3 Kebayoran Baru, Jakarta Selatan</li>
-                        <li><i class='bx bxs-envelope'></i><a href="arneva.ts@gmail.com">arneva.ts@gmail.com</a></li>
+                        <li><i class='bx bxs-envelope'></i><a href="arneva.ts@gmail.com">info@arneva.co.id</a></li>
                     </ul>
                 </div>
                 </div>
