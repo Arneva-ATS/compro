@@ -47,7 +47,7 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td colspan="4">Data tidak ditemukan!</td>
+                                    <td colspan="4">Lowongan belum tersedia!</td>
                                 </tr>
                                 {{-- <tr>
                                     <td>Designer</td>
