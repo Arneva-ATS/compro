@@ -4705,7 +4705,9 @@ Section Banner Area CSS
 .section-banner.bg-21{
   background-image: url(../img/banner/section-image-21.png);
 }
-
+.section-banner.bg-23{
+    background-image: url(../img/proyek/myvets.jpg);
+  }
 .section-banner.bg-22{
   background-image: url(../img/proyek/cms-web.jpg);
 }

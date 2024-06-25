@@ -286,7 +286,7 @@
     </div>
 </div>
 <script>
-    const slideTrackLeft = document.querySelector('.left');
+    const slideTrackLeft = document.querySelector('#carousel1');
     slideTrackLeft.addEventListener('mouseover', () => {
         slideTrackLeft.style.animationPlayState = 'paused';
     });
@@ -294,7 +294,7 @@
         slideTrackLeft.style.animationPlayState = 'running';
     });
 
-    const slideTrackRight = document.querySelector('.right');
+    const slideTrackRight = document.querySelector('#carousel2');
     slideTrackRight.addEventListener('mouseover', () => {
         slideTrackRight.style.animationPlayState = 'paused';
     });

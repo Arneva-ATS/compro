@@ -76,6 +76,15 @@ Route::prefix('solusi-bisnis')->name('solusi-bisnis.')->group(function () {
         return view('pages.solusi-bisnis.manajemen-gedung');
     })->name('manajemen-gedung');
 });
+Route::prefix('blog')->name('blog.')->group(function () {
+    Route::get('berita-pembaharuan', function () {
+        return view('pages.blog.berita-pembaharuan');
+    })->name('berita-pembaharuan');
+    Route::get('artikel-teknologi', function () {
+        return view('pages.blog.artikel-teknologi');
+    })->name('artikel-teknologi');
+
+});
 
 Route::get('/karir', function () {
     return view('pages.karir.index');
