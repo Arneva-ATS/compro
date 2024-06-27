@@ -6,7 +6,7 @@
         <div class="banner-spacing">
             <div class="section-info">
                 <h2 data-aos="fade-up" data-aos-delay="100">Berita dan Pembaharuan</h2>
-                <p data-aos="fade-up" data-aos-delay="200">Arneva selalu menyediakan berita terkini tentang teknologi kami kepada Anda..</p>
+                <p data-aos="fade-up" data-aos-delay="200">Arneva selalu menyediakan berita terkini tentang teknologi kami kepada Anda</p>
             </div>
         </div>
     </div>
@@ -36,16 +36,18 @@
                             Categories
                         </h3>
 
-                        <ul>
+                        <p>Categories belum tersedia!</p>
+
+                        {{-- <ul>
                             <li><h3><a href="#">Teknologi</a></h3> <span>(6)</span></li>
                             <li><h3><a href="#">Produk dan Layanan</a></h3> <span>(11)</span></li>
                             <li><h3><a href="#">Karir</a></h3> <span>(9)</span></li>
                             <li><h3><a href="#">Riset</a></h3> <span>(12)</span></li>
                             <li><h3><a href="#">Employee Life</a></h3> <span>(2)</span></li>
-                        </ul>
+                        </ul> --}}
 
                     </div>
-                    <div class="widget widget-banner">
+                    {{-- <div class="widget widget-banner">
                         <div class="blog-banner-content">
                             <div class="title">Donation <br>Helps Us</div>
                             <div class="price">
@@ -56,12 +58,13 @@
                                 <a class="default-btn" href="#">Become a Donor</a>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                     <div class="widget widget-tags">
                         <h3 class="widget-title">
                             Popular Tags
                         </h3>
-                        <ul>
+                        <p>Tags belum tersedia!</p>
+                        {{-- <ul>
                             <li><a href="#">Activities</a></li>
                             <li><a href="#">Alumni</a></li>
                             <li><a href="#">Campus</a></li>
@@ -74,13 +77,13 @@
                             <li><a href="#">Skill</a></li>
                             <li><a href="#">Business Life</a></li>
                             <li><a href="#">Undergraduate</a></li>
-                        </ul>
+                        </ul> --}}
                     </div>
                 </div>
             </div>
             <div class="col-lg-8">
                 <div class="row">
-                    <div class="col-lg-6 col-sm-6 col-md-6">
+                    {{-- <div class="col-lg-6 col-sm-6 col-md-6">
                         <div class="blog-single-card">
                             <div class="image">
                                 <img src="assets/img/all-img/blog-1.png" alt="image">
@@ -223,9 +226,12 @@
                                 <a class="butn" href="#">Read More <i class="bx bx-right-arrow-alt"></i></a>
                             </div>
                         </div>
+                    </div> --}}
+                    <div class="border border-1 border-secondary p-3">
+                        <h3 class="text-center">Artikel belum tersedia!</h3>
                     </div>
                 </div>
-                <div class="blog-pagi">
+                {{-- <div class="blog-pagi">
                     <ul class="pagination">
                         <li class="page-item">
                           <a class="page-link" href="#" aria-label="Previous">
@@ -241,7 +247,7 @@
                           </a>
                         </li>
                       </ul>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>

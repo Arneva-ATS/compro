@@ -268,7 +268,7 @@
 
 
     <!-- Start Campus Area 2 -->
-    <div class="campus-area-2 ptb-100">
+    {{-- <div class="campus-area-2 ptb-100">
         <div class="container-fluaid">
             <div class="section-title section-title-2" data-aos="fade-up" data-aos-delay="100">
                 <div class="sub-title">
@@ -301,7 +301,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- End Campus Area -->
 
     <!-- Start Success Area -->
@@ -366,7 +366,7 @@
 
 
     <!-- Start Events Area 2 -->
-    <div class="events-area-2" >
+    {{-- <div class="events-area-2" >
         <div class="container" >
             <div class="section-title section-title-2" data-aos="fade-up" data-aos-delay="100">
                 <div class="sub-title">
@@ -487,11 +487,11 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- End Events Area 2 -->
 
     <!-- Start Success Area 2 -->
-    <div class="success-area success-area-2 ptb-100">
+    {{-- <div class="success-area success-area-2 ptb-100">
         <div class="container">
             <div class="section-title section-title-2" data-aos="fade-up" data-aos-delay="100">
                 <div class="sub-title">
@@ -568,7 +568,7 @@
                             class='bx bx-right-arrow-alt'></i></a></p>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- End Success Area 2 -->
 
 

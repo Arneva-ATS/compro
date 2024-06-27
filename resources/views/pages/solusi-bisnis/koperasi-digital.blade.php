@@ -222,7 +222,7 @@
             <div class="col-lg-4 mt-3">
                 <div class="course-widget-area">
                     <div class="image">
-                        <img src="{{ asset('template/img/all-img/course-video.png') }}" alt="image">
+                        <img src="{{ asset('template/img/bisnis/solbis1.png') }}" alt="image" class="w-100">
                     </div>
                     <div class="content">
                         <div class="pricing">
