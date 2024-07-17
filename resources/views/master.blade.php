@@ -118,7 +118,7 @@
             }
         </style>
         <title>Arneva Teknologi Solusi</title>
-        <link rel="icon" type="image/png" href="{{ asset('template/img/all-img/favicon.png') }}">
+        <link rel="icon" type="image/png" href="{{ asset('template/img/logo/logo-arneva.png') }}">
     </head>
     <body>
 

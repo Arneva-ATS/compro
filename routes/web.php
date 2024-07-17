@@ -90,13 +90,13 @@ Route::get('/karir', function () {
     return view('pages.karir.index');
 })->name('karir');
 
-Route::get('/produk', function () {
-    return view('pages.karir.index');
-})->name('produk');
+// Route::get('/produk', function () {
+//     return view('pages.karir.index');
+// })->name('produk');
 
-Route::get('/blog', function () {
-    return view('pages.blog');
-})->name('blog');
+// Route::get('/blog', function () {
+//     return view('pages.blog');
+// })->name('blog');
 
 Route::get('/kontak-kami', function () {
     return view('pages.kontak-kami');

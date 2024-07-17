@@ -70,18 +70,10 @@
                             Solusi Bisnis
                         </a>
                         <ul class="dropdown-menu">
-                            <li class="nav-item"><a href="{{ route('solusi-bisnis.koperasi-digital') }}"
-                                    class="nav-link {{ request()->routeIs('solusi-bisnis.koperasi-digital') ? 'active' : '' }}">Koperasi
-                                    Digital</a></li>
-                            <li class="nav-item"><a href="{{ route('solusi-bisnis.rumah-sakit-digital') }}"
-                                    class="nav-link {{ request()->routeIs('solusi-bisnis.rumah-sakit-digital') ? 'active' : '' }}">Rumah
-                                    Sakit Digital</a></li>
-                            <li class="nav-item"><a href="{{ route('solusi-bisnis.manajemen-rantai-pemasok') }}"
-                                    class="nav-link {{ request()->routeIs('solusi-bisnis.manajemen-rantai-pemasok') ? 'active' : '' }}">Manajemen
-                                    Rantai Pemasok</a></li>
-                            <li class="nav-item"><a href="{{ route('solusi-bisnis.manajemen-gedung') }}"
-                                    class="nav-link {{ request()->routeIs('solusi-bisnis.manajemen-gedung') ? 'active' : '' }}">Manajemen
-                                    Gedung</a></li>
+                            <li class="nav-item"><a href="{{ route('solusi-bisnis.koperasi-digital') }}" class="nav-link {{ request()->routeIs('solusi-bisnis.koperasi-digital') ? 'active' : '' }}">Koperasi Digital</a></li>
+                            <li class="nav-item"><a href="{{ route('solusi-bisnis.rumah-sakit-digital') }}" class="nav-link {{ request()->routeIs('solusi-bisnis.rumah-sakit-digital') ? 'active' : '' }}">Rumah Sakit Digital</a></li>
+                            <li class="nav-item"><a href="{{ route('solusi-bisnis.manajemen-rantai-pemasok') }}" class="nav-link {{ request()->routeIs('solusi-bisnis.manajemen-rantai-pemasok') ? 'active' : '' }}">Manajemen Rantai Pemasok</a></li>
+                            <li class="nav-item"><a href="{{ route('solusi-bisnis.manajemen-gedung') }}" class="nav-link {{ request()->routeIs('solusi-bisnis.manajemen-gedung') ? 'active' : '' }}">Manajemen Gedung</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -91,28 +83,24 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="{{ route('produk') }}"
-                            class="dropdown-toggle nav-link {{ request()->routeIs('produk') ? 'active' : '' }}">
+                        <a href="javascript:void(0)"
+                            class="dropdown-toggle nav-link {{ request()->routeIs(['proyek-studi-kasus.proyek-terkini']) ? 'active' : '' }}">
                             Proyek dan Studi Kasus
                         </a>
                         <ul class="dropdown-menu">
-                            <li class="nav-item"><a href="{{ route('proyek-studi-kasus.proyek-terkini') }}"
-                                    class="nav-link {{ request()->routeIs('proyek-studi-kasus.proyek-terkini') ? 'active' : '' }}">Proyek
-                                    Terkini</a></li>
+                            <li class="nav-item"><a href="{{ route('proyek-studi-kasus.proyek-terkini') }}" class="nav-link {{ request()->routeIs('proyek-studi-kasus.proyek-terkini') ? 'active' : '' }}">Proyek Terkini</a></li>
                             <li class="nav-item"><a href="#!" class="nav-link">Studi Kasus</a></li>
                             <li class="nav-item"><a href="#!" class="nav-link">Testimoni Klien</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a href="{{ route('blog') }}"
-                            class="dropdown-toggle nav-link {{ request()->routeIs('blog') ? 'active' : '' }}">
+                        <a href="javascript:void(0)"
+                            class="dropdown-toggle nav-link {{ request()->routeIs(['blog.artikel-teknologi', 'blog.berita-pembaharuan']) ? 'active' : '' }}">
                             blog
                         </a>
                         <ul class="dropdown-menu">
                             <li class="nav-item"><a href="{{ route('blog.artikel-teknologi') }}" class="nav-link {{ request()->routeIs('blog.artikel-teknologi') ? 'active' : '' }}">Artikel Teknologi</a></li>
-                            <li class="nav-item"><a href="{{ route('blog.berita-pembaharuan') }}"
-                                    class="nav-link {{ request()->routeIs('blog.berita-pembaharuan') ? 'active' : '' }}">Berita
-                                    dan Pembaruan</a></li>
+                            <li class="nav-item"><a href="{{ route('blog.berita-pembaharuan') }}" class="nav-link {{ request()->routeIs('blog.berita-pembaharuan') ? 'active' : '' }}">Berita dan Pembaruan</a></li>
                             <li class="nav-item"><a href="#!" class="nav-link">Tips & Trik</a></li>
                         </ul>
                     </li>

@@ -46,9 +46,6 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <td colspan="4">Lowongan belum tersedia!</td>
-                                </tr>
                                 {{-- <tr>
                                     <td>Designer</td>
                                     <td>Marketing</td>
