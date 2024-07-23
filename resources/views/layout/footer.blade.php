@@ -44,10 +44,19 @@
         </div>
         <div class="carousel-cell d-flex align-items-center gap-3">
             <div class="flex-grow">
-                <img src="{{ asset('template/img/logo/inkopal.png') }}" alt="logo inkopawi" />
+                <img src="{{ asset('template/img/logo/kopenas.png') }}" alt="logo kopenas" />
             </div>
             <div class="flex-1 text-start">
-                <h3 class="text-capitalize">inkopal</h3>
+                <h3 class="text-capitalize">kopenas</h3>
+                <p>Koperasi</p>
+            </div>
+        </div>
+        <div class="carousel-cell d-flex align-items-center gap-3">
+            <div class="flex-grow">
+                <img src="{{ asset('template/img/logo/inkoptan.jpeg') }}" alt="logo inkopawi" />
+            </div>
+            <div class="flex-1 text-start">
+                <h3 class="text-capitalize">inkoptan</h3>
                 <p>Koperasi</p>
             </div>
         </div>
@@ -62,28 +71,10 @@
         </div>
         <div class="carousel-cell d-flex align-items-center gap-3">
             <div class="flex-grow">
-                <img src="{{ asset('template/img/logo/inkopal.png') }}" alt="logo inkopawi" />
+                <img src="{{ asset('template/img/logo/dekopin.png') }}" alt="logo inkopawi" />
             </div>
             <div class="flex-1 text-start">
-                <h3 class="text-capitalize">inkopal</h3>
-                <p>Koperasi</p>
-            </div>
-        </div>
-        <div class="carousel-cell d-flex align-items-center gap-3">
-            <div class="flex-grow">
-                <img src="{{ asset('template/img/logo/inkopal.png') }}" alt="logo inkopawi" />
-            </div>
-            <div class="flex-1 text-start">
-                <h3 class="text-capitalize">inkopal</h3>
-                <p>Koperasi</p>
-            </div>
-        </div>
-        <div class="carousel-cell d-flex align-items-center gap-3">
-            <div class="flex-grow">
-                <img src="{{ asset('template/img/logo/inkopal.png') }}" alt="logo inkopawi" />
-            </div>
-            <div class="flex-1 text-start">
-                <h3 class="text-capitalize">inkopal</h3>
+                <h3 class="text-capitalize">dekopin</h3>
                 <p>Koperasi</p>
             </div>
         </div>
@@ -129,46 +120,37 @@
         </div>
         <div class="carousel-cell d-flex align-items-center gap-3">
             <div class="flex-grow">
-                <img src="{{ asset('template/img/logo/inkopal.png') }}" alt="logo inkopawi" />
+                <img src="{{ asset('template/img/logo/inkopdit.png') }}" alt="logo kopenas" />
             </div>
             <div class="flex-1 text-start">
-                <h3 class="text-capitalize">inkopal</h3>
+                <h3 class="text-capitalize">inkopdit</h3>
                 <p>Koperasi</p>
             </div>
         </div>
         <div class="carousel-cell d-flex align-items-center gap-3">
             <div class="flex-grow">
-                <img src="{{ asset('template/img/logo/inkopal.png') }}" alt="logo inkopawi" />
+                <img src="{{ asset('template/img/logo/kopindo.jpg') }}" alt="logo inkopawi" />
             </div>
             <div class="flex-1 text-start">
-                <h3 class="text-capitalize">inkopal</h3>
+                <h3 class="text-capitalize">kopindo</h3>
                 <p>Koperasi</p>
             </div>
         </div>
         <div class="carousel-cell d-flex align-items-center gap-3">
             <div class="flex-grow">
-                <img src="{{ asset('template/img/logo/inkopal.png') }}" alt="logo inkopawi" />
+                <img src="{{ asset('template/img/logo/inkopontren.jpg') }}" alt="logo inkopawi" />
             </div>
             <div class="flex-1 text-start">
-                <h3 class="text-capitalize">inkopal</h3>
+                <h3 class="text-capitalize">inkopontren</h3>
                 <p>Koperasi</p>
             </div>
         </div>
         <div class="carousel-cell d-flex align-items-center gap-3">
             <div class="flex-grow">
-                <img src="{{ asset('template/img/logo/inkopal.png') }}" alt="logo inkopawi" />
+                <img src="{{ asset('template/img/logo/inkoveri.png') }}" alt="logo inkopawi" />
             </div>
             <div class="flex-1 text-start">
-                <h3 class="text-capitalize">inkopal</h3>
-                <p>Koperasi</p>
-            </div>
-        </div>
-        <div class="carousel-cell d-flex align-items-center gap-3">
-            <div class="flex-grow">
-                <img src="{{ asset('template/img/logo/inkopal.png') }}" alt="logo inkopawi" />
-            </div>
-            <div class="flex-1 text-start">
-                <h3 class="text-capitalize">inkopal</h3>
+                <h3 class="text-capitalize">inkoveri</h3>
                 <p>Koperasi</p>
             </div>
         </div>
@@ -187,7 +169,7 @@
                             <li><a href="#"><i class='bx bx-chevron-right'></i>Mitra Strategis</a></li>
                             <li><a href="#"><i class='bx bx-chevron-right'></i>Program Kemitraan </a>
                             </li>
-                            <li><a href="the-campus-experience.html"><i class='bx bx-chevron-right'></i> Cara Menjadi
+                            <li><a href="#!"><i class='bx bx-chevron-right'></i> Cara Menjadi
                                     Mitra</a></li>
                         </ul>
                     </div>
@@ -248,7 +230,7 @@
                             <li><a href="#"><i class='bx bx-chevron-right'></i> Teknis
 
                                 </a></li>
-                            <li><a href="#student-activities.html"><i class='bx bx-chevron-right'></i>Tips & Trik
+                            <li><a href="#!"><i class='bx bx-chevron-right'></i>Tips & Trik
                                 </a></li>
                         </ul>
                     </div>
@@ -271,10 +253,9 @@
                             <li><a href="#">Cookie Policy</a></li>
                         </ul>
                         <ul class="social-list">
-                            <li><a href="#"><i class='bx bxl-facebook'></i></a></li>
-                            <li><a href="#"><i class='bx bxl-instagram-alt'></i></a></li>
-                            <li><a href="#"><i class='bx bxl-twitter'></i></a></li>
-                            <li><a href="#"><i class='bx bxl-linkedin-square'></i></a></li>
+                            <li><a href="https://www.facebook.com/share/1xVniatNcUX8biuf/?mibextid=qi2Omg" target="_blank"><i class='bx bxl-facebook'></i></a></li>
+                            <li><a href="https://www.instagram.com/arnevats?igsh=MXd5eTdyZHkwZWdpdw==" target="_blank"><i class='bx bxl-instagram-alt'></i></a></li>
+                            <li><a href="http://www.linkedin.com/in/arneva-teknologi-informasi-558674316" target="_blank"><i class='bx bxl-linkedin-square'></i></a></li>
                         </ul>
                     </div>
                 </div>

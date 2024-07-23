@@ -1,13 +1,13 @@
 <div class="navbar-area style-2" id="navbar">
     <div class="container-fluid">
         <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="#!">
                 <img class="logo-light" style="max-width: 9em;" src="{{ asset('template/img/logo/logo_ats-08.png') }}"
                     alt="logo">
                 <img class="logo-dark" style="max-width: 9em;" src="{{ asset('template/img/logo/logo_ats-07.png') }}"
                     alt="logo">
             </a>
-            <div class="other-option d-lg-none">
+            <div class="other-option d-none">
                 <div class="option-item">
                     <button type="button" class="search-btn" data-bs-toggle="offcanvas"
                         data-bs-target="#staticBackdrop">
@@ -380,29 +380,28 @@
                     </div>
                 </div>
             </div> --}}
-
         </div>
         <div class="offcanvas-contact-info">
-            <h4>Contact Info</h4>
+            <h4>Informasi Kontak</h4>
             <ul class="contact-info list-style">
                 <li>
                     <i class="bx bxs-envelope"></i>
-                    <a href="contact@Clgunme.edu">contact@Clgunme.edu</a>
+                    <a href="info@arneva.co.id">info@arneva.co.id</a>
                 </li>
                 <li>
                     <i class="bx bxs-time"></i>
-                    <p>Mon - Fri: 9:00 - 18:00</p>
+                    <p>Senin - Jum'at: 9:00 - 18:00</p>
                 </li>
             </ul>
             <ul class="social-profile list-style">
-                <li><a href="https://www.fb.com" target="_blank"><i class='bx bxl-facebook'></i></a></li>
-                <li><a href="https://www.instagram.com" target="_blank"><i class='bx bxl-instagram'></i></a></li>
-                <li><a href="https://www.linkedin.com" target="_blank"><i class='bx bxl-linkedin'></i></a></li>
+                <li><a href="https://www.facebook.com/share/1xVniatNcUX8biuf/?mibextid=qi2Omg" target="_blank"><i class='bx bxl-facebook'></i></a></li>
+                <li><a href="https://www.instagram.com/arnevats?igsh=MXd5eTdyZHkwZWdpdw==" target="_blank"><i class='bx bxl-instagram'></i></a></li>
+                <li><a href="http://www.linkedin.com/in/arneva-teknologi-informasi-558674316" target="_blank"><i class='bx bxl-linkedin'></i></a></li>
             </ul>
         </div>
         <div class="offcanvas-other-options">
             <div class="option-item">
-                <a href="contact-us.html" class="default-btn" style="background-color:#102C57">Contact Us</a>
+                <a href="{{ route('kontak-kami') }}" class="default-btn" style="background-color:#102C57">Kontak Kami</a>
             </div>
         </div>
     </div>

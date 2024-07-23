@@ -12,7 +12,7 @@
                         membantu klien kami menavigasi lanskap digital yang selalu berubah dan mencapai tujuan mereka dengan
                         percaya diri.</p>
                     <div class="buttons-action" data-aos="fade-up" data-aos-delay="100">
-                        <a class="default-btn" style="background-color:#f17a3d" href="application-form.html">Produk Kami</a>
+                        <a class="default-btn" style="background-color:#f17a3d" href="#!">Produk Kami</a>
                     </div>
                     <div class="vertical-lr align-items-center" data-aos="fade-zoom-in" data-aos-delay="100">
                         <p class="d-block mx-auto">Consultant</p>
@@ -46,7 +46,7 @@
                         <h2>Konsultasi IT</h2>
                         <p>Layanan konsultasi TI yang komprehensif untuk membantu bisnis menavigasi kompleksitas teknologi
                         </p>
-                        <a class="default-btn" style="background-color:#f17a3d;" href="schedule-tour.html">Lihat Detail</a>
+                        <a class="default-btn" style="background-color:#f17a3d;" href="#!">Lihat Detail</a>
                     </div>
                 </div>
                 <div class="content-items" data-dot="<button>02</button>">
@@ -56,7 +56,7 @@
                         <h2>Integrasi Sistem</h2>
                         <p>Layanan integrasi sistem kami berfokus pada pengintegrasian sistem, aplikasi, dan platform TI
                             yang berbeda secara sempurna dalam organisasi Anda</p>
-                        <a class="default-btn" style="background-color:#f17a3d;" href="schedule-tour.html">Lihat Detail</a>
+                        <a class="default-btn" style="background-color:#f17a3d;" href="#!">Lihat Detail</a>
                     </div>
                 </div>
                 <div class="content-items" data-dot="<button>03</button>">
@@ -66,7 +66,7 @@
                         <h2>Pengembangan Perangkat Lunak</h2>
                         <p>Menggunakan teknologi terbaru dan metodologi yang tepat untuk membuat aplikasi yang dapat
                             diskalakan, aman dan mudah digunakan</p>
-                        <a class="default-btn" style="background-color:#f17a3d;" href="schedule-tour.html">Lihat Detail</a>
+                        <a class="default-btn" style="background-color:#f17a3d;" href="#!">Lihat Detail</a>
                     </div>
                 </div>
                 <div class="content-items" data-dot="<button>04</button>">
@@ -75,7 +75,7 @@
                     <div class="content" data-aos="fade-up" data-aos-delay="200">
                         <h2>Kemanan Siber</h2>
                         <p>Membantu Anda dalam menjaga aplikasi dan jaringan Anda dari serangan luar yang dapat menimbulkan kerugian</p>
-                        <a class="default-btn" style="background-color:#f17a3d;" href="schedule-tour.html">Lihat Detail</a>
+                        <a class="default-btn" style="background-color:#f17a3d;" href="#!">Lihat Detail</a>
                     </div>
                 </div>
                 <div class="content-items" data-dot="<button>05</button>">
@@ -84,7 +84,7 @@
                     <div class="content" data-aos="fade-up" data-aos-delay="200">
                         <h2>Dukungan TI</h2>
                         <p>Memberikan dukungan pada bisnis Anda selama 24/7</p>
-                        <a class="default-btn" style="background-color:#f17a3d;" href="schedule-tour.html">Lihat Detail</a>
+                        <a class="default-btn" style="background-color:#f17a3d;" href="#!">Lihat Detail</a>
                     </div>
                 </div>
             </div>
@@ -151,7 +151,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <a style="background-color:#f17a3d;" class="default-btn" href="admission.html">Lihat
+                            <a style="background-color:#f17a3d;" class="default-btn" href="#!">Lihat
                                 Selengkapnya</a>
 
                             <div class="arrow-icon">
@@ -172,7 +172,7 @@
                                         </div>
                                         <div class="content">
                                             <h4>Koperasi Digital</h4>
-                                            <a class="btn" href="fitness-athletics.html">Pelajari Lebih Lanjut <i
+                                            <a class="btn" href="#!">Pelajari Lebih Lanjut <i
                                                     class='bx bx-right-arrow-alt'></i></a>
                                         </div>
                                     </div>
@@ -187,7 +187,7 @@
                                         </div>
                                         <div class="content">
                                             <h4>Rumah Sakit Digital</h4>
-                                            <a class="btn" href="support-guidance.html">Pelajari Lebih Lanjut <i
+                                            <a class="btn" href="#!">Pelajari Lebih Lanjut <i
                                                     class='bx bx-right-arrow-alt'></i></a>
                                         </div>
                                     </div>
@@ -202,7 +202,7 @@
                                         </div>
                                         <div class="content">
                                             <h4>Manajemen Rantai Pemasok</h4>
-                                            <a class="btn" href="university-life.html">Pelajari Lebih Lanjut <i
+                                            <a class="btn" href="#!">Pelajari Lebih Lanjut <i
                                                     class='bx bx-right-arrow-alt'></i></a>
                                         </div>
                                     </div>
@@ -217,7 +217,7 @@
                                         </div>
                                         <div class="content">
                                             <h4>Manajemen Bangunan</h4>
-                                            <a class="btn" href="the-campus-experience.html">Pelajari Lebih Lanjut <i
+                                            <a class="btn" href="#!">Pelajari Lebih Lanjut <i
                                                     class='bx bx-right-arrow-alt'></i></a>
                                         </div>
                                     </div>
@@ -257,7 +257,7 @@
                 </div>
                 <div class="col-lg-2" data-aos="fade-up" data-aos-delay="300">
                     <div class="button">
-                        <a class="default-btn bg-white text-dark"  href="financial-aid.html">Daftar Sekarang</a>
+                        <a class="default-btn bg-white text-dark"  href="#!">Daftar Sekarang</a>
                     </div>
                 </div>
             </div>
