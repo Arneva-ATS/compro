@@ -78,10 +78,82 @@
                 <p>Koperasi</p>
             </div>
         </div>
+        <div class="carousel-cell d-flex align-items-center gap-3">
+            <div class="flex-grow">
+                <img src="{{ asset('template/img/logo/kopenas.png') }}" alt="logo kopenas" />
+            </div>
+            <div class="flex-1 text-start">
+                <h3 class="text-capitalize">kopenas</h3>
+                <p>Koperasi</p>
+            </div>
+        </div>
+        <div class="carousel-cell d-flex align-items-center gap-3">
+            <div class="flex-grow">
+                <img src="{{ asset('template/img/logo/inkoptan.jpeg') }}" alt="logo inkopawi" />
+            </div>
+            <div class="flex-1 text-start">
+                <h3 class="text-capitalize">inkoptan</h3>
+                <p>Koperasi</p>
+            </div>
+        </div>
+        <div class="carousel-cell d-flex align-items-center gap-3">
+            <div class="flex-grow">
+                <img src="{{ asset('template/img/logo/inkopal.png') }}" alt="logo inkopawi" />
+            </div>
+            <div class="flex-1 text-start">
+                <h3 class="text-capitalize">inkopal</h3>
+                <p>Koperasi</p>
+            </div>
+        </div>
+        <div class="carousel-cell d-flex align-items-center gap-3">
+            <div class="flex-grow">
+                <img src="{{ asset('template/img/logo/dekopin.png') }}" alt="logo inkopawi" />
+            </div>
+            <div class="flex-1 text-start">
+                <h3 class="text-capitalize">dekopin</h3>
+                <p>Koperasi</p>
+            </div>
+        </div>
     </div>
 
     <!-- Carousel Row 2 -->
     <div class="carousel py-3" id="carousel2">
+        <div class="carousel-cell d-flex align-items-center gap-3">
+            <div class="flex-grow">
+                <img src="{{ asset('template/img/logo/inkopdit.png') }}" alt="logo kopenas" />
+            </div>
+            <div class="flex-1 text-start">
+                <h3 class="text-capitalize">inkopdit</h3>
+                <p>Koperasi</p>
+            </div>
+        </div>
+        <div class="carousel-cell d-flex align-items-center gap-3">
+            <div class="flex-grow">
+                <img src="{{ asset('template/img/logo/kopindo.jpg') }}" alt="logo inkopawi" />
+            </div>
+            <div class="flex-1 text-start">
+                <h3 class="text-capitalize">kopindo</h3>
+                <p>Koperasi</p>
+            </div>
+        </div>
+        <div class="carousel-cell d-flex align-items-center gap-3">
+            <div class="flex-grow">
+                <img src="{{ asset('template/img/logo/inkopontren.jpg') }}" alt="logo inkopawi" />
+            </div>
+            <div class="flex-1 text-start">
+                <h3 class="text-capitalize">inkopontren</h3>
+                <p>Koperasi</p>
+            </div>
+        </div>
+        <div class="carousel-cell d-flex align-items-center gap-3">
+            <div class="flex-grow">
+                <img src="{{ asset('template/img/logo/inkoveri.png') }}" alt="logo inkopawi" />
+            </div>
+            <div class="flex-1 text-start">
+                <h3 class="text-capitalize">inkoveri</h3>
+                <p>Koperasi</p>
+            </div>
+        </div>
         <div class="carousel-cell d-flex align-items-center gap-3">
             <div class="flex-grow">
                 <img src="{{ asset('template/img/logo/inkopdit.png') }}" alt="logo kopenas" />
